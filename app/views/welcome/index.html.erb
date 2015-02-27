@@ -1,4 +1,25 @@
-<h2>Hello World</h2>
-<p>
-  The time is now: <%= Time.now %>
-</p>
+<div class="container">
+	<h1>Industriell ekonomis SM - röstare</h1>
+	<div id="display" class="hidden" >
+		<div>
+			<p id="ws-offline" class="text-danger">Offline</p>
+			<p id="ws-online" class="text-success hidden">Online</p>
+		</div>
+		<%= select_tag("vote", options_for_select([['Adam Lewenhaupt', 1], ["Suboptimala alternativ", 2]]), :class => "form-control", :id => "vote") %>
+
+		<h2>Du röstar på:</h2>
+		<p id="current-vote">--</p>
+
+		<button id="vote-btn" class="btn btn-primary btn-lg btn-block">
+			Rösta
+		</button>
+	</div>
+	<div id="auth">
+		<p>Vänligen logga in</p>
+		<form>
+			<input class="form-control" type="text" placeholder="Nyckel" />
+		</form>
+		<br/>
+		<button class="btn btn-success btn-lg btn-block" id="login">Logga in</button>
+	</div>
+</div>
