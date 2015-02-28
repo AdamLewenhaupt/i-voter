@@ -1,10 +1,10 @@
 <div class="container">
 	<h1>Industriell ekonomis SM - röstare</h1>
-	<div id="display" class="hidden" >
-		<div>
-			<p id="ws-offline" class="text-danger">Offline</p>
-			<p id="ws-online" class="text-success hidden">Online</p>
-		</div>
+	<div>
+		<p id="ws-offline" class="text-danger">Offline</p>
+		<p id="ws-online" class="text-success hidden">Online</p>
+	</div>
+	<div id="display" class="" >
 		<%= select_tag("vote", options_for_select([['Adam Lewenhaupt', 1], ["Suboptimala alternativ", 2]]), :class => "form-control", :id => "vote") %>
 
 		<h2>Du röstar på:</h2>
@@ -14,7 +14,7 @@
 			Rösta
 		</button>
 	</div>
-	<div id="auth">
+	<div id="auth" class="hidden">
 		<p>Vänligen logga in</p>
 		<form>
 			<input class="form-control" type="text" placeholder="Nyckel" />
