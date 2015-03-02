@@ -1,8 +1,13 @@
 <div class="container">
 	<h1>I-Voter</h1>
-	<div>
-		<p id="ws-offline" class="text-danger">Offline</p>
-		<p id="ws-online" class="text-success hidden">Online</p>
+	<div class="row">
+		<div class="col-sm-6">
+			<p id="ws-offline" class="text-danger">Offline</p>
+			<p id="ws-online" class="text-success hidden">Online</p>
+		</div>
+		<div class="col-sm-6">
+			<p id="voter-count">--</p>
+		</div>
 	</div>
 	<div id="display" class="" >
 		<%= select_tag("vote", options_for_select([['Adam Lewenhaupt', 1], ["Suboptimala alternativ", 2]]), :class => "form-control", :id => "vote") %>
