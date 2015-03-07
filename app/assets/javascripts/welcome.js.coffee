@@ -1,17 +1,18 @@
 isOnline = false
 isAutenticated = false
 
-rad = (Value) -> Value * Math.PI / 180
+toRad = (Value) -> Value * Math.PI / 180
 
-distance = (lat1,lon1,lat2,lon2) ->
-    R = 6371
-    dLat = rad(lat2-lat1)
-    dLon = rad(lon2-lon1) 
-    a = Math.sin(dLat/2) * Math.sin(dLat/2) +
-            Math.cos(rad(lat1)) * Math.cos(rad(lat2)) * 
-            Math.sin(dLon/2) * Math.sin(dLon/2) 
-    c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)) 
-    return R * c
+distance = (long1, lat1, long2, lat2) ->
+  R = 6371
+  # earth radius in km
+  dLat = toRad(lat2 - lat1)
+  dLon = toRad(long2 - long1)
+  lat1 = toRad(lat1)
+  lat2 = toRad(lat2)
+  a = Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.sin(dLon / 2) * Math.sin(dLon / 2) * Math.cos(lat1) * Math.cos(lat2)
+  c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+  R * c
 
 updateVote = () ->
 	$("#current-vote").html $("#vote option:selected").text()
