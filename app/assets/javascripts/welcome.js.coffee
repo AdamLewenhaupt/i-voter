@@ -12,7 +12,7 @@ distance = (long1, lat1, long2, lat2) ->
   lat2 = toRad(lat2)
   a = Math.sin(dLat / 2) * Math.sin(dLat / 2) + Math.sin(dLon / 2) * Math.sin(dLon / 2) * Math.cos(lat1) * Math.cos(lat2)
   c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
-  R * c
+  R * c * 1000
 
 updateVote = () ->
 	$("#current-vote").html $("#vote option:selected").text()
@@ -31,7 +31,7 @@ debug = (msg) ->
 	$("#debug").html(msg)
 
 
-auth = (long, lat, acc) ->
+auth = (lat, long, acc) ->
 
 	targetLat = 59.348430
 	targetLong = 18.073814
