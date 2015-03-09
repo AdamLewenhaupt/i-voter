@@ -47,7 +47,7 @@ auth = (lat, long, acc) ->
 		auth = data.auth
 		if auth
 			$("#allowed").removeClass("hidden")
-			$("#denined").addClass("hidden")
+			$("#denied").addClass("hidden")
 			isAutenticated = true
 
 
