@@ -1,6 +1,14 @@
 <div class="container">
-	<div id="login" class="row">
+	<div id="login" class="<%= 'hidden' if session[:valid] %>">
 		<input id="pass" type="password" class="form-control" placeholder="Password" />
 	</div>
-	<div id="panel" class="hidden"></div>
+	<div id="panel" class="<%= 'hidden' if not session[:valid] %>">
+		<div class="row">
+			<div class="col-sm-6">
+				bla
+			</div>
+			<div>
+			</div>
+		</div>
+	</div>
 </div>

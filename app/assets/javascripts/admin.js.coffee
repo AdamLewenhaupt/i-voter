@@ -4,15 +4,16 @@
 
 loggedIn = false
 
-logIn = (text) ->
+login = (text) ->
 
 	params =
-		pass = text
+		pass: text
 
 	$.post "/admin/auth", params, (data) ->
-		loggedIn = data
-		$("#login").addClass("hidden")
-		$("#panel").removeClass("hidden")
+		loggedIn = data.valid
+		if loggedIn
+			$("#login").addClass("hidden")
+			$("#panel").removeClass("hidden")
 
 $(document).ready () ->
 
