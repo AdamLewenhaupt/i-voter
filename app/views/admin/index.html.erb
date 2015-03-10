@@ -3,11 +3,30 @@
 		<input id="pass" type="password" class="form-control" placeholder="Password" />
 	</div>
 	<div id="panel" class="<%= 'hidden' if not session[:valid] %>">
-		<div class="row">
-			<div class="col-sm-6">
-				bla
+		<div class="vote-active <%= 'hidden' if not $voting %>">
+			<div class="row">
+				<div class="col-sm-6">
+					Röstning pågår
+				</div>
 			</div>
-			<div>
+		</div>
+		</div>
+		<div class="vote-init <%= 'hidden' if $voting %>">
+			<div class="row">
+				<div class="col-sm-6">
+					<h1>Alternativ</h1>
+					<div class="btn btn-success">
+						Lägg till alternativ
+						<span class="glyphicon glyphicon-plus"></span>
+					</div>
+					<div class="well">
+						<div id="options">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<h1>Starta</h1>
+				</div>
 			</div>
 		</div>
 	</div>
