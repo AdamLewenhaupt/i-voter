@@ -10,12 +10,11 @@
 				</div>
 			</div>
 		</div>
-		</div>
 		<div class="vote-init <%= 'hidden' if $voting %>">
 			<div class="row">
 				<div class="col-sm-6">
 					<h1>Alternativ</h1>
-					<div class="btn btn-success">
+					<div id="add" class="btn btn-success">
 						Lägg till alternativ
 						<span class="glyphicon glyphicon-plus"></span>
 					</div>
@@ -25,7 +24,12 @@
 					</div>
 				</div>
 				<div class="col-sm-6">
-					<h1>Starta</h1>
+					<h1>
+						Kontroll
+					</h1>
+					<div id="begin" class="btn btn-lg btn-block btn-success">
+						Starta röstning
+					</div>
 				</div>
 			</div>
 		</div>
