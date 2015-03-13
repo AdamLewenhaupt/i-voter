@@ -17,6 +17,10 @@ login = (text) ->
 
 $(document).ready () ->
 
+	client = new Faye.Client('/faye')
+	voteSub = client.subscribe '/vote', (msg) ->
+		console.log msg
+
 	$(document).keypress (e) ->
 		if not loggedIn and e.which == 13 
 			login($("#pass").val())
@@ -40,4 +44,5 @@ $(document).ready () ->
 			.get()
 			
 		console.log options
+		$.post "/admin/start"
 

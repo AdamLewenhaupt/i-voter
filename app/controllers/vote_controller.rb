@@ -13,4 +13,10 @@ class VoteController < FayeRails::Controller
 			VoteController.publish('/vote', "count:#{voters}")
 		end
 	end
+
+	$setVote = lambda do |name, options|
+		opts = options.join '|'
+		puts "starting vote: #{name}, options: #{opts}"
+		VoteController.publish('/vote', "change:start:#{name}|#{opts}")
+	end
 end
