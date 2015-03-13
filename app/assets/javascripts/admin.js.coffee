@@ -42,7 +42,20 @@ $(document).ready () ->
 	$("#begin").click () ->
 		options = $("#options div input").map () -> $(this).val()
 			.get()
-			
-		console.log options
-		$.post "/admin/start"
+
+		name = $("#name").val()
+		
+		if name == undefined or name == ""
+			alert "Du har inte satt ett namn"
+			return false
+
+		if options.length < 1
+			alert "Det finns inget att rösta på"
+			return false
+
+		params = 
+			options: options
+			name: name	
+
+		$.post "/admin/start", params
 

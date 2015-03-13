@@ -8,8 +8,7 @@ class AdminController < ApplicationController
   end
 
   def start
-  	puts "redirecting"
-  	$setVote.call "test", ["a", "b"]
+  	$setVote.call params[:name], params[:options]
   	render :json => { :started => true }
   end
 end
