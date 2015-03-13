@@ -43,19 +43,12 @@ $(document).ready () ->
 		options = $("#options div input").map () -> $(this).val()
 			.get()
 
-		name = $("#name").val()
-		
-		if name == undefined or name == ""
-			alert "Du har inte satt ett namn"
-			return false
-
 		if options.length < 1
 			alert "Det finns inget att rösta på"
 			return false
 
 		params = 
 			options: options
-			name: name	
 
 		$.post "/admin/start", params
 

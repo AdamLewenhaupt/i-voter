@@ -25,6 +25,13 @@ handleMsg = (msg) ->
 
 	if type == "count"
 		$("#voter-count").html(content)
+	else if type == "start"
+		options = content.split("|")
+		$("#vote option").remove()
+
+		for opt,i in options
+			$("<option value='#{i}'>#{opt}</option>").appendTo $("#vote")
+
 
 
 debug = (msg) ->
