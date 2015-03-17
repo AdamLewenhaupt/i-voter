@@ -10,8 +10,15 @@ class AdminController < ApplicationController
   def start
 
     $voteOptions = params[:options]
+    $voting = true
 
   	$setVote.call $voteOptions
   	render :json => { :started => true }
+  end
+
+  def stop
+    $voting = false
+    $stopVote.call
+    render :json => { :stopped => true }
   end
 end

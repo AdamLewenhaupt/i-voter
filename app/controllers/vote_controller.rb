@@ -18,4 +18,8 @@ class VoteController < FayeRails::Controller
 		opts = options.join '|'
 		VoteController.publish('/vote', "start:#{opts}")
 	end
+
+	$stopVote = lambda do 
+		VoteController.publish('/vote', "stop")
+	end
 end
