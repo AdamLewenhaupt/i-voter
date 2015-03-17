@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require faye
-//= require_tree .
+//= require bootstrap
+//= require_tree ./lib

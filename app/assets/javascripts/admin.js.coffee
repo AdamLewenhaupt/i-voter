@@ -15,11 +15,20 @@ login = (text) ->
 			$("#login").addClass("hidden")
 			$("#panel").removeClass("hidden")
 
+
+handleMsg = (msg) ->
+	parts = msg.split(":")
+	type = parts[0]
+	content = parts[1]
+
+	if type == "count"
+		$("#voter-count").html(content)
+
+
 $(document).ready () ->
 
 	client = new Faye.Client('/faye')
-	voteSub = client.subscribe '/vote', (msg) ->
-		console.log msg
+	voteSub = client.subscribe '/vote', handleMsg
 
 	$(document).keypress (e) ->
 		if not loggedIn and e.which == 13 
@@ -50,5 +59,8 @@ $(document).ready () ->
 		params = 
 			options: options
 
-		$.post "/admin/start", params
+		$.post "/admin/start", params, (err) ->
+			console.log err
+			$(".vote-init").addClass "hidden"
+			$(".vote-active").removeClass "hidden"
 
