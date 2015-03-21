@@ -25,6 +25,17 @@ handleMsg = (msg) ->
 		$("#voter-count").html(content)
 
 
+setVote = (options) ->
+	$vOpts = $("#voting-options")
+	$vOpts.html("")
+
+	for opt in options
+		$("<h2>#{opt}</h2>").appendTo $vOpts
+		$("<div class='progress'><div class='progress-bar' role='progressbar' aria-valuenow='50' aria-valuemin='0' aria-valuemax='100' style='width:50%;'>50%</div></div>").appendTo $vOpts
+
+
+
+
 $(document).ready () ->
 
 	client = new Faye.Client('/faye')
@@ -56,11 +67,30 @@ $(document).ready () ->
 			alert "Det finns inget att rösta på"
 			return false
 
+		else
+			setVote(options)
+
 		params = 
 			options: options
 
-		$.post "/admin/start", params, (err) ->
-			console.log err
+		$.post "/admin/start", params, (data) ->
+			console.log data
 			$(".vote-init").addClass "hidden"
 			$(".vote-active").removeClass "hidden"
+			$("#new").addClass "hidden"
 
+	$("#end").click () ->
+		$.post "/admin/end", (data) ->
+			console.log data
+			$("#end").attr("disabled", true)
+			$("#new").removeClass "hidden"
+			$("#is-voting").addClass "hidden"
+			$("#done-voting").removeClass "hidden"
+
+	$("#new").click () ->
+		$(".vote-init").removeClass "hidden"
+		$(".vote-active").addClass "hidden"
+		$("#options").html("")
+		$("#end").attr("disabled", false)
+		$("#is-voting").removeClass "hidden"
+		$("#done-voting").addClass "hidden"

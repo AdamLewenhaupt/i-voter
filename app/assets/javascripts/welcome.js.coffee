@@ -24,7 +24,7 @@ handleMsg = (msg) ->
 	content = parts[1]
 
 	if type == "count"
-		$("#voter-count").html(content)
+		$("#voter-count span").html(content)
 	else if type == "start"
 		options = content.split("|")
 		$("#vote option").remove()
@@ -48,7 +48,7 @@ auth = (lat, long, acc) ->
 		acc: acc
 
 
-	debug "Distance to SingSing: #{Math.round(params.dist)}m +/- #{Math.round(params.acc)}m"
+	# debug "Distance to SingSing: #{Math.round(params.dist)}m +/- #{Math.round(params.acc)}m"
 
 	$.post "/auth", params, (data) ->
 		auth = data.auth

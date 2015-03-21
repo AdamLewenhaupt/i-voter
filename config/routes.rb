@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'admin' => "admin#index"
   post 'admin/auth' => "admin#auth"
   post 'admin/start' => "admin#start"
+  post 'admin/end' => "admin#end"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

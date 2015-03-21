@@ -7,15 +7,16 @@
 			<p id="ws-online" class="text-success hidden">Online</p>
 		</div>
 		<div class="col-sm-4">
-			<p id="denied" class="text-danger">Ej tillträde</p>
+			<p id="denied" class="text-danger">Ej tillträde - Du är ej i SingSing</p>
 			<p id="allowed" class="text-success hidden">Godkänd</p>
 		</div>
 		<div class="col-sm-4">
-			<p id="voter-count">--</p>
+			<p id="voter-count">Röstande: <span>--</span></p>
 		</div>
 	</div>
 	<div id="display" class="" >
-		<%= select_tag("vote", options_for_select([['Adam Lewenhaupt', 1], ["Suboptimala alternativ", 2]]), :class => "form-control", :id => "vote") %>
+		<% opts = $voteOptions.each_with_index.map { |o,i| [o,i] } %>
+		<%= select_tag("vote", options_for_select(opts), :class => "form-control", :id => "vote") %>
 
 		<h2>Du röstar på:</h2>
 		<p id="current-vote">--</p>

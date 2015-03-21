@@ -16,7 +16,7 @@ class AdminController < ApplicationController
   	render :json => { :started => true }
   end
 
-  def stop
+  def end
     $voting = false
     $stopVote.call
     render :json => { :stopped => true }
