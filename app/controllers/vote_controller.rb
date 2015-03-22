@@ -20,6 +20,6 @@ class VoteController < FayeRails::Controller
 	end
 
 	$stopVote = lambda do 
-		VoteController.publish('/vote', "stop")
+		VoteController.publish('/vote', "end")
 	end
 end

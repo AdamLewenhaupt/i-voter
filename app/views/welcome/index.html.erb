@@ -14,7 +14,7 @@
 			<p id="voter-count">Röstande: <span>--</span></p>
 		</div>
 	</div>
-	<div id="display" class="" >
+	<div id="display" class="<%= 'hidden' if not $voting %>" >
 		<% opts = $voteOptions.each_with_index.map { |o,i| [o,i] } %>
 		<%= select_tag("vote", options_for_select(opts), :class => "form-control", :id => "vote") %>
 
@@ -32,5 +32,8 @@
 		</form>
 		<br/>
 		<button class="btn btn-success btn-lg btn-block" id="login">Logga in</button>
+	</div>
+	<div id="inactive" class="<%= 'hidden' if $voting %>">
+		<h2>Vänligen invänta röstning</h2>
 	</div>
 </div>

@@ -23,14 +23,23 @@ handleMsg = (msg) ->
 	type = parts[0]
 	content = parts[1]
 
-	if type == "count"
-		$("#voter-count span").html(content)
-	else if type == "start"
-		options = content.split("|")
-		$("#vote option").remove()
+	switch type
+		when "count"
+			$("#voter-count span").html(content)
 
-		for opt,i in options
-			$("<option value='#{i}'>#{opt}</option>").appendTo $("#vote")
+		when "start"
+			$("#current-vote").html("--")
+			toggleHidden(["#inactive", "#display"])
+			options = content.split("|")
+			$("#vote option").remove()
+
+			for opt,i in options
+				$("<option value='#{i}'>#{opt}</option>").appendTo $("#vote")
+
+			$("#vote").trigger('change')
+
+		when "end"
+			toggleHidden(["#inactive", "#display"])
 
 
 
