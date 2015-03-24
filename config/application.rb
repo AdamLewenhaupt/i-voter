@@ -28,7 +28,8 @@ module IVoter
     # config.i18n.default_locale = :de
 
     $voting = false
-    $voteOptions = ["Adam", "Suboptimala alternativ"]
+    $voteOptions = []
+    $voteCounter = {}
 
     config.middleware.delete Rack::Lock
     config.middleware.use FayeRails::Middleware, mount: '/faye', :timeout => 25 do

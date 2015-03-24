@@ -10,6 +10,8 @@ class AdminController < ApplicationController
   def start
 
     $voteOptions = params[:options]
+    $voteCounter = Hash[$voteOptions.map { |e| [e,0] }]
+
     $voting = true
 
   	$setVote.call $voteOptions

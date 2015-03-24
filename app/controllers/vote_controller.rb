@@ -13,9 +13,10 @@ class VoteController < FayeRails::Controller
 			VoteController.publish('/vote', "count:#{voters}")
 		end
 
-		monitor :publish do
-			@vote = data.inspect
-			puts @vote
+		monitor :publish do 
+			id = data.inspect.to_i
+			puts "works #{id}"
+
 		end
 	end
 

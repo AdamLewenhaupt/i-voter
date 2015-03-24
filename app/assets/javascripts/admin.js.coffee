@@ -16,6 +16,9 @@ login = (text) ->
 			$("#panel").removeClass("hidden")
 
 
+handleVote = (id) ->
+	
+
 handleMsg = (msg) ->
 	parts = msg.split(":")
 	type = parts[0]
@@ -40,6 +43,7 @@ $(document).ready () ->
 
 	client = new Faye.Client('/faye')
 	voteSub = client.subscribe '/vote', handleMsg
+	voteWatcherSub = client.subscribe '/vote-watcher', handleVote
 
 	$(document).keypress (e) ->
 		if not loggedIn and e.which == 13 
@@ -60,7 +64,7 @@ $(document).ready () ->
 		$option.appendTo $("#options")
 
 	$("#begin").click () ->
-		options = $("#options div input").map () -> $(this).val()
+		window.options = $("#options div input").map () -> $(this).val()
 			.get()
 
 		if options.length < 1
@@ -68,13 +72,12 @@ $(document).ready () ->
 			return false
 
 		else
-			setVote(options)
+			setVote(window.options)
 
 		params = 
-			options: options
+			options: window.options
 
 		$.post "/admin/start", params, (data) ->
-			console.log data
 			$(".vote-init").addClass "hidden"
 			$(".vote-active").removeClass "hidden"
 			$("#new").addClass "hidden"
