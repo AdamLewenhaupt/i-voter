@@ -12,6 +12,11 @@ class VoteController < FayeRails::Controller
 			voters -= 1
 			VoteController.publish('/vote', "count:#{voters}")
 		end
+
+		monitor :publish do
+			@vote = data.inspect
+			puts @vote
+		end
 	end
 
 	$setVote = lambda do |options|
@@ -22,4 +27,6 @@ class VoteController < FayeRails::Controller
 	$stopVote = lambda do 
 		VoteController.publish('/vote', "end")
 	end
+
+
 end

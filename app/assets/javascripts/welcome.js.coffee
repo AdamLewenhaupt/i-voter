@@ -112,6 +112,7 @@ $(document).ready () ->
 		updateVote()
 
 	$("#vote-btn").click () ->
+		client.publish '/vote', { vote: $("#vote").val() }
 		if isAutenticated
 			$(this).addClass("btn-success")
 			$(this).html("Tack för din röst")
