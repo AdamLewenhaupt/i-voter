@@ -21,7 +21,7 @@ class VoteController < FayeRails::Controller
 				if parts[0] == "vote"
 					id = parts[1].to_i
 					$voteCounter[$voteOptions[id]] += 1
-					VoteController.publish '/vote', 'admin:#{id}'
+					VoteController.publish '/vote', "admin:#{id}"
 				end
 			end
 		end

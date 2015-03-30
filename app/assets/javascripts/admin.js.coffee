@@ -3,6 +3,8 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 loggedIn = false
+votes = 0
+voteCounter = []
 
 login = (text) ->
 
@@ -16,9 +18,6 @@ login = (text) ->
 			$("#panel").removeClass("hidden")
 
 
-handleVote = (id) ->
-	
-
 handleMsg = (msg) ->
 	parts = msg.split(":")
 	type = parts[0]
@@ -27,14 +26,31 @@ handleMsg = (msg) ->
 	if type == "count"
 		$("#voter-count").html(content)
 
+	else if type == "admin"
+		id = +content
+		voteCounter[id] += 1
+		votes += 1
+
+		$(".opt").each (i) ->
+
+			percent = voteCounter[i] / votes * 100
+			$(".opt-title-#{i} span").html voteCounter[i]
+			$(this).children(".progress-bar").attr("aria-valuenow", Math.round percent)
+				.css("width", "#{percent}%")
+				.html "#{ percent.toFixed 2 }%" 
+
+
 
 setVote = (options) ->
 	$vOpts = $("#voting-options")
 	$vOpts.html("")
 
-	for opt in options
-		$("<h2>#{opt}</h2>").appendTo $vOpts
-		$("<div class='progress'><div class='progress-bar' role='progressbar' aria-valuenow='50' aria-valuemin='0' aria-valuemax='100' style='width:50%;'>50%</div></div>").appendTo $vOpts
+	votes = 0
+	voteCounter = []
+
+	for opt,i in options
+		$("<p class='opt-title-<%= i %>'>#{opt} - <span>0</span> röst(er)</p>").appendTo $vOpts
+		$("<div class='progress opt'><div class='progress-bar' role='progressbar' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100' style='width:0%;'>0%</div></div>").appendTo $vOpts
 
 
 
@@ -43,11 +59,13 @@ $(document).ready () ->
 
 	client = new Faye.Client('/faye')
 	voteSub = client.subscribe '/vote', handleMsg
-	voteWatcherSub = client.subscribe '/vote-watcher', handleVote
 
 	$(document).keypress (e) ->
 		if not loggedIn and e.which == 13 
 			login($("#pass").val())
+
+	votes = +$("#total").html()
+	voteCounter = $(".votes").map(-> +$(this).html()).get()
 
 	$("#add").click () ->
 

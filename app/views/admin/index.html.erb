@@ -11,10 +11,12 @@
 				<div class="col-sm-6">
 					<div id="voting-options" class="well">
 						<% total = $voteCounter.map { |a| a[1] }.reduce { |a,s| a + s } %>
-						<% $voteOptions.each do |opt| %>
+						<div id="total" class="hidden"><%= total %></div>
+						<% $voteOptions.each_with_index do |opt, i| %>
 						<% p = (if total > 0 then $voteCounter[opt] / total.to_f * 100  else 0 end).round 2 %>
-						<%= opt %> - <%= $voteCounter[opt] %> röst(er)
-						<div class="progress">
+						<p class="opt-title-<%= i %>"><%= opt %> - <span><%= $voteCounter[opt] %></span> röst(er)</p>
+						<div class="progress opt">
+							<div class="hidden votes"><%= $voteCounter[opt] %></div>
 							<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="<%= p %>" 
 								aria-valuemin="0" aria-valuemax="100" style="width:<%= p %>%;">
 								<%= p %>%
