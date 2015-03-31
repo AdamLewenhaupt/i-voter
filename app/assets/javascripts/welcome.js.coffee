@@ -23,6 +23,8 @@ handleMsg = (msg) ->
 	type = parts[0]
 	content = parts[1]
 
+	console.log type, content
+
 	switch type
 		when "count"
 			$("#voter-count span").html(content)
