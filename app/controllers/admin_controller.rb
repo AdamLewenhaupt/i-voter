@@ -14,13 +14,13 @@ class AdminController < ApplicationController
 
     $voting = true
 
-  	$setVote.call $voteOptions
+  	# $setVote.call $voteOptions
   	render :json => { :started => true }
   end
 
   def end
     $voting = false
-    $stopVote.call
+    # $stopVote.call
     render :json => { :stopped => true }
   end
 end
