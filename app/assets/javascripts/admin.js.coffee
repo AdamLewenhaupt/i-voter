@@ -28,7 +28,7 @@ handleMsg = (msg) ->
 	if type == "count"
 		$("#voter-count").html(content)
 
-	else if type == "admin"
+	else if type == "vote"
 		id = +content
 		voteCounter[id] += 1
 		votes += 1
