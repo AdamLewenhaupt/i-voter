@@ -94,7 +94,7 @@ $(document).ready () ->
 	else
 		console.log "no pos :("
 
-	window.client = new Faye.Client('/faye')
+	client = new Faye.Client('/faye')
 	client.on 'transport:down', () ->
 		isOnline = true
 		$("#ws-offline").removeClass("hidden")

@@ -19804,3 +19804,96 @@ Started GET "/faye" for 127.0.0.1 at 2015-03-31 11:07:12 +0200
 
 
 Started POST "/faye" for 127.0.0.1 at 2015-03-31 11:07:12 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-31 11:29:30 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1084ms (Views: 1048.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:31 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-31 11:29:32 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 11:29:32 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 11:29:32 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 11:29:32 +0200
+
+
+Started POST "/auth" for 127.0.0.1 at 2015-03-31 11:29:34 +0200
+Processing by AuthController#verify as */*
+  Parameters: {"dist"=>"2101.9007897996453", "acc"=>"559821"}
+Completed 200 OK in 2ms (Views: 0.5ms)
