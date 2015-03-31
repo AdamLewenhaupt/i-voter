@@ -32,8 +32,8 @@ handleMsg = (msg) ->
 		votes += 1
 
 		$(".opt").each (i) ->
-
 			percent = voteCounter[i] / votes * 100
+
 			$(".opt-title-#{i} span").html voteCounter[i]
 			$(this).children(".progress-bar").attr("aria-valuenow", Math.round percent)
 				.css("width", "#{percent}%")
@@ -46,11 +46,11 @@ setVote = (options) ->
 	$vOpts.html("")
 
 	votes = 0
-	voteCounter = []
+	voteCounter = [1..options.length].map -> 0
 
 	for opt,i in options
-		$("<p class='opt-title-<%= i %>'>#{opt} - <span>0</span> röst(er)</p>").appendTo $vOpts
-		$("<div class='progress opt'><div class='progress-bar' role='progressbar' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100' style='width:0%;'>0%</div></div>").appendTo $vOpts
+		$("<p class='opt-title-#{i}'>#{opt} - <span>0</span> röst(er)</p>").appendTo $vOpts
+		$("<div class='progress opt'><div class='progress-bar progress-bar-success' role='progressbar' aria-valuenow='0' aria-valuemin='0' aria-valuemax='100' style='width:0%;'>0%</div></div>").appendTo $vOpts
 
 
 

@@ -17780,3 +17780,1461 @@ Started POST "/admin/start" for 127.0.0.1 at 2015-03-30 20:18:47 +0200
 Processing by AdminController#start as */*
   Parameters: {"options"=>["a", "b"]}
 Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-31 10:12:50 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 5122ms (Views: 5084.7ms)
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-03-31 10:12:56 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:12:57 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:12:57 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:12:57 +0200
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:13:01 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 279ms (Views: 277.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:13:01 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:13:01 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:01 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:01 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:01 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:13:02 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:13:03 +0200
+
+
+Started POST "/auth" for 127.0.0.1 at 2015-03-31 10:13:04 +0200
+Processing by AuthController#verify as */*
+  Parameters: {"dist"=>"2101.9007897996453", "acc"=>"559821"}
+Completed 200 OK in 2ms (Views: 0.5ms)
+
+
+Started POST "/admin/auth" for 127.0.0.1 at 2015-03-31 10:13:08 +0200
+Processing by AdminController#auth as */*
+  Parameters: {"pass"=>"ax3"}
+Completed 200 OK in 2ms (Views: 0.6ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2015-03-31 10:13:08 +0200
+
+
+Started POST "/admin/start" for 127.0.0.1 at 2015-03-31 10:13:19 +0200
+Processing by AdminController#start as */*
+  Parameters: {"options"=>["a", "b"]}
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:13:38 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 317ms (Views: 315.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:13:39 +0200
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:15:01 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 268ms (Views: 266.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:15:02 +0200
+
+
+Started POST "/admin/end" for 127.0.0.1 at 2015-03-31 10:15:12 +0200
+Processing by AdminController#end as */*
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started POST "/admin/start" for 127.0.0.1 at 2015-03-31 10:15:18 +0200
+Processing by AdminController#start as */*
+  Parameters: {"options"=>["a", "b"]}
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 290ms (Views: 289.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:17:11 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:17:12 +0200
+
+
+Started POST "/admin/end" for 127.0.0.1 at 2015-03-31 10:17:16 +0200
+Processing by AdminController#end as */*
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started POST "/admin/start" for 127.0.0.1 at 2015-03-31 10:17:40 +0200
+Processing by AdminController#start as */*
+  Parameters: {"options"=>["a", "b"]}
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:19:40 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 798ms (Views: 797.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:19:41 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:19:42 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:19:42 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:19:42 +0200
+
+
+Started POST "/admin/end" for 127.0.0.1 at 2015-03-31 10:20:01 +0200
+Processing by AdminController#end as */*
+Completed 200 OK in 4ms (Views: 0.4ms)
+
+
+Started POST "/admin/start" for 127.0.0.1 at 2015-03-31 10:20:09 +0200
+Processing by AdminController#start as */*
+  Parameters: {"options"=>["a", "b"]}
+Completed 200 OK in 4ms (Views: 0.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:21:25 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 626ms (Views: 624.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:21:26 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:21:27 +0200
+
+
+Started POST "/admin/end" for 127.0.0.1 at 2015-03-31 10:21:28 +0200
+Processing by AdminController#end as */*
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started POST "/admin/start" for 127.0.0.1 at 2015-03-31 10:21:32 +0200
+Processing by AdminController#start as */*
+  Parameters: {"options"=>["a", "b"]}
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 629ms (Views: 627.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:02 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:23:03 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:23:03 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:23:03 +0200
+
+
+Started POST "/admin/end" for 127.0.0.1 at 2015-03-31 10:23:04 +0200
+Processing by AdminController#end as */*
+Completed 200 OK in 3ms (Views: 0.4ms)
+
+
+Started POST "/admin/start" for 127.0.0.1 at 2015-03-31 10:23:09 +0200
+Processing by AdminController#start as */*
+  Parameters: {"options"=>["a", "b"]}
+Completed 200 OK in 14ms (Views: 1.5ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 658ms (Views: 655.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:23:43 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:23:44 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:23:44 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:23:44 +0200
+
+
+Started POST "/admin/end" for 127.0.0.1 at 2015-03-31 10:23:46 +0200
+Processing by AdminController#end as */*
+Completed 200 OK in 3ms (Views: 0.5ms)
+
+
+Started POST "/admin/start" for 127.0.0.1 at 2015-03-31 10:23:51 +0200
+Processing by AdminController#start as */*
+  Parameters: {"options"=>["a", "b"]}
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:27:26 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 648ms (Views: 646.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:27:27 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:27:28 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:27:28 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:27:28 +0200
+
+
+Started POST "/admin/end" for 127.0.0.1 at 2015-03-31 10:27:34 +0200
+Processing by AdminController#end as */*
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started POST "/admin/start" for 127.0.0.1 at 2015-03-31 10:27:39 +0200
+Processing by AdminController#start as */*
+  Parameters: {"options"=>["a", "b"]}
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:29:04 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 645ms (Views: 644.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:05 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:29:06 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:29:06 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:29:06 +0200
+
+
+Started POST "/admin/end" for 127.0.0.1 at 2015-03-31 10:29:06 +0200
+Processing by AdminController#end as */*
+Completed 200 OK in 3ms (Views: 0.4ms)
+
+
+Started POST "/admin/start" for 127.0.0.1 at 2015-03-31 10:29:11 +0200
+Processing by AdminController#start as */*
+  Parameters: {"options"=>["a", "b"]}
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:29:29 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 625ms (Views: 623.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:30 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:29:31 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:29:31 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:29:31 +0200
+
+
+Started POST "/admin/end" for 127.0.0.1 at 2015-03-31 10:29:32 +0200
+Processing by AdminController#end as */*
+Completed 200 OK in 3ms (Views: 0.4ms)
+
+
+Started POST "/admin/start" for 127.0.0.1 at 2015-03-31 10:29:37 +0200
+Processing by AdminController#start as */*
+  Parameters: {"options"=>["a", "b"]}
+Completed 200 OK in 3ms (Views: 0.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:29:49 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 636ms (Views: 634.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:29:50 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:29:51 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:29:51 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:29:51 +0200
+
+
+Started POST "/admin/end" for 127.0.0.1 at 2015-03-31 10:29:52 +0200
+Processing by AdminController#end as */*
+Completed 200 OK in 4ms (Views: 0.3ms)
+
+
+Started POST "/admin/start" for 127.0.0.1 at 2015-03-31 10:29:59 +0200
+Processing by AdminController#start as */*
+  Parameters: {"options"=>["a", "b"]}
+Completed 200 OK in 8ms (Views: 3.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:31:51 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 626ms (Views: 625.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:31:52 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:31:53 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:31:53 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:31:53 +0200
+
+
+Started POST "/admin/end" for 127.0.0.1 at 2015-03-31 10:31:54 +0200
+Processing by AdminController#end as */*
+Completed 200 OK in 5ms (Views: 0.3ms)
+
+
+Started POST "/admin/start" for 127.0.0.1 at 2015-03-31 10:32:00 +0200
+Processing by AdminController#start as */*
+  Parameters: {"options"=>["a", "b"]}
+Completed 200 OK in 3ms (Views: 0.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 634ms (Views: 633.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-03-31 10:32:16 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:32:17 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-03-31 10:32:17 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-03-31 10:32:17 +0200
+
+
+Started POST "/admin/end" for 127.0.0.1 at 2015-03-31 10:32:19 +0200
+Processing by AdminController#end as */*
+Completed 200 OK in 4ms (Views: 0.3ms)
+
+
+Started POST "/admin/start" for 127.0.0.1 at 2015-03-31 10:32:23 +0200
+Processing by AdminController#start as */*
+  Parameters: {"options"=>["a"]}
+Completed 200 OK in 6ms (Views: 0.3ms)
