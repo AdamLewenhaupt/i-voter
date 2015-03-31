@@ -23,10 +23,13 @@ handleMsg = (msg) ->
 	type = parts[0]
 	content = parts[1]
 
+	console.log msg
+
 	if type == "count"
 		$("#voter-count").html(content)
 
-	else if type == "admin"
+	else if type == "vote"
+		console.log type, content
 		id = +content
 		voteCounter[id] += 1
 		votes += 1

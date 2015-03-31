@@ -3,6 +3,7 @@ class VoteController < FayeRails::Controller
 	voters = 0
 
 	channel '/vote' do
+
 		# monitor :subscribe do
 		# 	voters += 1
 		# 	VoteController.publish('/vote', "count:#{voters}")
@@ -13,7 +14,10 @@ class VoteController < FayeRails::Controller
 		# 	VoteController.publish('/vote', "count:#{voters}")
 		# end
 
-		monitor :publish do 
+		monitor :publish do
+
+			puts data
+
 			msg = data.inspect
 			if msg != nil
 
