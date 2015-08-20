@@ -41,4 +41,13 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'rails_12factor', group: :production
 
+# Use mysql as the database for Active Record
+gem 'mysql2'
+
+# User management
+gem 'devise'
+
+# For verifying wordpress hashes
+gem 'phpass-ruby'
+
 ruby "2.2.0"

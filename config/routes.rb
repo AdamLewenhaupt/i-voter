@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  root 'welcome#index'
+  devise_for :users
+
   get 'admin' => "admin#index"
   post 'admin/auth' => "admin#auth"
   post 'admin/start' => "admin#start"
@@ -8,7 +11,6 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'welcome#index'
   post 'auth' => 'auth#verify'
 
   # Example of regular route:
