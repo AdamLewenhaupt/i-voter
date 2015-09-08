@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   post 'admin/start' => "admin#start"
   post 'admin/end' => "admin#end"
 
+  resources :polls
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
