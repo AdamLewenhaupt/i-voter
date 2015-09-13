@@ -31,7 +31,7 @@ module IVoter
     $voteOptions = []
     $voteCounter = {}
 
-    $lAT = 59.348430
+    $LAT = 59.348430
     $LONG = 18.073814 
 
     config.middleware.delete Rack::Lock

@@ -23332,3 +23332,933 @@ Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:54:27 +0200
 
 
 Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:54:27 +0200
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-09-13 21:56:37 +0200
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 615ms (Views: 579.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-13 21:56:37 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:37 +0200
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2015-09-13 21:56:37 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-09-13 21:56:37 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:37 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:37 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:37 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 21:56:38 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:56:39 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:56:39 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:56:40 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 21:56:40 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:56:40 +0200
+
+
+Started GET "/faye/agoi9vrm5tp5djiuqicydqkpj46yr9c/agoi9vrm5tp5djiuqicydqkpj46yr9c" for 127.0.0.1 at 2015-09-13 21:56:40 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:56:40 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:56:40 +0200
+
+
+Started POST "/auth" for 127.0.0.1 at 2015-09-13 21:56:44 +0200
+Processing by AuthController#verify as */*
+  Parameters: {"lat"=>"59.303565899999995", "long"=>"18.0065044", "acc"=>"453174"}
+Completed 500 Internal Server Error in 6ms
+
+TypeError (nil can't be coerced into Float):
+  app/controllers/auth_controller.rb:8:in `-'
+  app/controllers/auth_controller.rb:8:in `distance'
+  app/controllers/auth_controller.rb:26:in `verify'
+
+
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.6ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.8ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (29.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-13 21:58:06 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 611ms (Views: 572.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 21:58:07 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:58:08 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 21:58:08 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:58:08 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:58:08 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:58:09 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 21:58:09 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:58:09 +0200
+
+
+Started POST "/auth" for 127.0.0.1 at 2015-09-13 21:58:09 +0200
+Processing by AuthController#verify as */*
+  Parameters: {"lat"=>"59.303565899999995", "long"=>"18.0065044", "acc"=>"453174"}
+Completed 500 Internal Server Error in 2ms
+
+TypeError (nil can't be coerced into Float):
+  app/controllers/auth_controller.rb:8:in `-'
+  app/controllers/auth_controller.rb:8:in `distance'
+  app/controllers/auth_controller.rb:26:in `verify'
+
+
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.5ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (2.2ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (29.2ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 21:58:36 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:58:36 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:58:36 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 21:58:36 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:58:36 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-13 21:58:36 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 694ms (Views: 656.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-13 21:58:37 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:58:39 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 21:58:39 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:58:39 +0200
+
+
+Started POST "/auth" for 127.0.0.1 at 2015-09-13 21:58:41 +0200
+Processing by AuthController#verify as */*
+  Parameters: {"lat"=>"59.303565899999995", "long"=>"18.0065044", "acc"=>"453174"}
+Completed 500 Internal Server Error in 2ms
+
+TypeError (nil can't be coerced into Float):
+  app/controllers/auth_controller.rb:8:in `-'
+  app/controllers/auth_controller.rb:8:in `distance'
+  app/controllers/auth_controller.rb:26:in `verify'
+
+
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.5ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (2.1ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (29.7ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 21:59:37 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 21:59:37 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:59:37 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:59:37 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:59:37 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:59:37 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 21:59:37 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:59:37 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 21:59:37 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 21:59:37 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-13 22:01:08 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 660ms (Views: 617.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-13 22:01:09 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:01:10 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:01:10 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:01:11 +0200
+
+
+Started POST "/auth" for 127.0.0.1 at 2015-09-13 22:01:12 +0200
+Processing by AuthController#verify as */*
+  Parameters: {"lat"=>"59.303565899999995", "long"=>"18.0065044", "acc"=>"453174"}
+Completed 500 Internal Server Error in 2ms
+
+TypeError (nil can't be coerced into Float):
+  app/controllers/auth_controller.rb:10:in `-'
+  app/controllers/auth_controller.rb:10:in `distance'
+  app/controllers/auth_controller.rb:28:in `verify'
+
+
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.4ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (2.6ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (31.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-13 22:02:55 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 625ms (Views: 580.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-13 22:02:56 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:02:57 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:02:58 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:02:58 +0200
+
+
+Started POST "/auth" for 127.0.0.1 at 2015-09-13 22:02:59 +0200
+Processing by AuthController#verify as */*
+  Parameters: {"lat"=>"59.303565899999995", "long"=>"18.0065044", "acc"=>"453174"}
+Completed 500 Internal Server Error in 2ms
+
+TypeError (can't convert Array into Float):
+  app/controllers/auth_controller.rb:16:in `cos'
+  app/controllers/auth_controller.rb:16:in `distance'
+  app/controllers/auth_controller.rb:28:in `verify'
+
+
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.8ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (2.0ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (2.2ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (30.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-13 22:03:01 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 355ms (Views: 352.2ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:03:01 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-13 22:03:01 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-09-13 22:03:01 +0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:02 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:03:03 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:03:03 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:03:03 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 365ms (Views: 364.0ms)
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:15 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:16 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:16 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:16 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:16 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:16 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:16 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:03:17 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:03:17 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 22:03:17 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:03:17 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 22:03:17 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:03:17 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:03:17 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 22:03:17 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:03:17 +0200
+
+
+Started POST "/auth" for 127.0.0.1 at 2015-09-13 22:03:20 +0200
+Processing by AuthController#verify as */*
+  Parameters: {"lat"=>"59.303565899999995", "long"=>"18.0065044", "acc"=>"453174"}
+Completed 500 Internal Server Error in 4ms
+
+TypeError (can't convert Array into Float):
+  app/controllers/auth_controller.rb:16:in `cos'
+  app/controllers/auth_controller.rb:16:in `distance'
+  app/controllers/auth_controller.rb:28:in `verify'
+
+
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.3ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (2.7ms)
+  Rendered /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb (32.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-13 22:03:57 +0200
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 650ms (Views: 608.6ms)
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/lib/dummy.css?body=1" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:58 +0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:59 +0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:59 +0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:59 +0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:59 +0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:59 +0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:59 +0200
+
+
+Started GET "/assets/faye.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:59 +0200
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:59 +0200
+
+
+Started GET "/assets/lib/domutil.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:59 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:59 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-13 22:03:59 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:04:00 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:04:00 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:04:00 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 22:04:00 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:04:00 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:04:00 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:04:00 +0200
+
+
+Started GET "/faye" for 127.0.0.1 at 2015-09-13 22:04:00 +0200
+
+
+Started POST "/faye" for 127.0.0.1 at 2015-09-13 22:04:00 +0200
+
+
+Started POST "/auth" for 127.0.0.1 at 2015-09-13 22:04:01 +0200
+Processing by AuthController#verify as */*
+  Parameters: {"lat"=>"59.303565899999995", "long"=>"18.0065044", "acc"=>"453174"}
+Completed 200 OK in 2ms (Views: 0.5ms)
