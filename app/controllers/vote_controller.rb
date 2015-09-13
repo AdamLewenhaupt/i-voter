@@ -3,20 +3,31 @@ class VoteController < FayeRails::Controller
 	voters = 0
 
 	channel '/vote' do
+<<<<<<< HEAD
 
 		# monitor :subscribe do
 		# 	voters += 1
 		# 	VoteController.publish('/vote', "count:#{voters}")
 		# end
 
+=======
+		# monitor :subscribe do
+		# 	voters += 1
+		# 	VoteController.publish('/vote', "count:#{voters}")
+		# end
+
+>>>>>>> 7388bdf8189b88caf3107dee9593a5284a4ea40c
 		# monitor :unsubscribe do
 		# 	voters -= 1
 		# 	VoteController.publish('/vote', "count:#{voters}")
 		# end
+<<<<<<< HEAD
 
 		monitor :publish do
 
 			puts data
+=======
+>>>>>>> 7388bdf8189b88caf3107dee9593a5284a4ea40c
 
 			msg = data.inspect
 			if msg != nil
@@ -25,7 +36,7 @@ class VoteController < FayeRails::Controller
 				if parts[0] == "vote"
 					id = parts[1].to_i
 					$voteCounter[$voteOptions[id]] += 1
-					VoteController.publish '/vote', "admin:#{id}"
+					#VoteController.publish '/vote', "admin:#{id}"
 				end
 			end
 		end

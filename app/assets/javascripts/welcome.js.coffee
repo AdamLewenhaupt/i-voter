@@ -23,6 +23,8 @@ handleMsg = (msg) ->
 	type = parts[0]
 	content = parts[1]
 
+	console.log type, content
+
 	switch type
 		when "count"
 			$("#voter-count span").html(content)
@@ -92,7 +94,7 @@ $(document).ready () ->
 	else
 		console.log "no pos :("
 
-	window.client = new Faye.Client('/faye')
+	client = new Faye.Client('/faye')
 	client.on 'transport:down', () ->
 		isOnline = true
 		$("#ws-offline").removeClass("hidden")
