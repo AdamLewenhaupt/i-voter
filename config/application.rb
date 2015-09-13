@@ -31,6 +31,9 @@ module IVoter
     $voteOptions = []
     $voteCounter = {}
 
+    $lAT = 59.348430
+    $LONG = 18.073814 
+
     config.middleware.delete Rack::Lock
     config.middleware.use FayeRails::Middleware, mount: '/faye', :timeout => 25 do
         map '/vote' => VoteController
