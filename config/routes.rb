@@ -7,7 +7,14 @@ Rails.application.routes.draw do
   post 'admin/start' => "admin#start"
   post 'admin/end' => "admin#end"
 
-  resources :polls
+  get 'polls/latest' => "polls#latest"
+  post 'polls/:id/open' => "polls#open"
+  post 'polls/:id/close' => "polls#close"
+  get 'polls/:poll_id/poll_options/:id/vote' => "poll_options#vote"
+
+  resources :polls do
+    resources :poll_options
+  end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

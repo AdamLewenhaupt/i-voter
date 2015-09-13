@@ -1,0 +1,5 @@
+<%= simple_form_for poll_option, url: poll_poll_options_path(poll_id: poll.id) do |p| %>
+	<%= p.input :description %>
+
+	<%= p.submit %>
+<% end %>
