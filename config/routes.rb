@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   post 'admin/end' => "admin#stop"
   post 'update-location' => 'admin#update_location'
 
+  get 'vote/start' => "vote#start"
+  get 'vote/stop' => "vote#stop"
+
   get 'polls/latest' => "polls#latest"
   post 'polls/:id/open' => "polls#open"
   post 'polls/:id/close' => "polls#close"

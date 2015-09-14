@@ -43,7 +43,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'rails_12factor', group: :production
 
-<<<<<<< HEAD
 # Use mysql as the database for Active Record
 gem 'mysql2'
 
@@ -53,7 +52,4 @@ gem 'devise'
 # For verifying wordpress hashes
 gem 'phpass-ruby'
 
-ruby "2.2.0"
-=======
 ruby "2.2.2"
->>>>>>> location

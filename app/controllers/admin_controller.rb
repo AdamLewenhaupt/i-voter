@@ -14,14 +14,12 @@ class AdminController < ApplicationController
 
         $voting = true
 
-        # $setVote.call $voteOptions
-        render :json => { :started => true }
+        redirect_to "/vote/start"
     end
 
     def stop
         $voting = false
-        # $stopVote.call
-        render :json => { :stopped => true }
+        redirect_to "/vote/stop"
     end
 
     def update_location

@@ -97,18 +97,20 @@ $(document).ready () ->
         params = 
             options: window.options
 
-        $.post "/admin/start", params, (data) ->
-            $(".vote-init").addClass "hidden"
-            $(".vote-active").removeClass "hidden"
-            $("#new").addClass "hidden"
+        client.publish '/vote', "start:#{window.options.join '|'}"
+
+        $(".vote-init").addClass "hidden"
+        $(".vote-active").removeClass "hidden"
+        $("#new").addClass "hidden"
 
     $("#end").click () ->
-        $.post "/admin/end", (data) ->
-            console.log data
-            $("#end").attr("disabled", true)
-            $("#new").removeClass "hidden"
-            $("#is-voting").addClass "hidden"
-            $("#done-voting").removeClass "hidden"
+
+        client.publish '/vote', "end:"
+
+        $("#end").attr("disabled", true)
+        $("#new").removeClass "hidden"
+        $("#is-voting").addClass "hidden"
+        $("#done-voting").removeClass "hidden"
 
     $("#new").click () ->
         $(".vote-init").removeClass "hidden"
