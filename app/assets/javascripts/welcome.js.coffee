@@ -1,5 +1,6 @@
 isOnline = false
 isAutenticated = false
+hasVoted = false
 
 updateVote = () ->
     $("#current-vote").html $("#vote option:selected").text()
@@ -9,8 +10,6 @@ handleMsg = (msg) ->
     parts = msg.split(":")
     type = parts[0]
     content = parts[1]
-
-    console.log type, content
 
     switch type
         when "count"
@@ -29,6 +28,7 @@ handleMsg = (msg) ->
 
         when "end"
             toggleHidden(["#inactive", "#display"])
+            hasVoted = false
 
 
 
@@ -96,9 +96,15 @@ $(document).ready () ->
         updateVote()
 
     $("#vote-btn").click () ->
-        client.publish '/vote', "vote:" + $("#vote").val()
         if isAutenticated
-            $(this).addClass("btn-success")
-            $(this).html("Tack för din röst")
+            if not hasVoted
+                $(this).addClass("btn-success")
+                console.log "vote:#{$("#user").html()}:#{$("#vote").val()}"
+                client.publish '/vote', "vote:#{$("#user").html()}:#{$("#vote").val()}"
+                $(this).html("Tack för din röst")
+                hasVoted = true
+            else
+                alert "Du har redan röstat"
         else
             alert("Du har ej rätt att rösta")
+

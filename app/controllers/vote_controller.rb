@@ -1,7 +1,5 @@
 class VoteController < FayeRails::Controller
 
-    # voters = 0
-
     channel '/vote' do
         # monitor :subscribe do
         # 	voters += 1
@@ -19,16 +17,18 @@ class VoteController < FayeRails::Controller
 
                 parts = msg.delete('"').split ":"
                 if parts[0] == "vote"
-                    id = parts[1].to_i
-                    $voteCounter[$voteOptions[id]] += 1
-                    #VoteController.publish '/vote', "admin:#{id}"
+                    user = parts[1]
+                    if not $userChecker.include? user
+                        id = parts[2].to_i
+                        $userChecker.push user                   
+                        $voteCounter[$voteOptions[id]] += 1
+                    end
 
                 elsif parts[0] == "start"
-                    puts "Starting vote"
                     options = parts[1].split '|'
-                    puts options
+                    $userChecker = []
                     $voting = true
-                    $voteOptions = params[:options]
+                    $voteOptions = options
                     $voteCounter = Hash[$voteOptions.map { |e| [e,0] }]
 
                 elsif parts[0] == "end"

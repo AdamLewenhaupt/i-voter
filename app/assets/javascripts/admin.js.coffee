@@ -5,6 +5,7 @@
 loggedIn = false
 votes = 0
 voteCounter = []
+userCheck = []
 
 login = (text) ->
 
@@ -21,14 +22,17 @@ login = (text) ->
 handleMsg = (msg) ->
     parts = msg.split(":")
     type = parts[0]
-    content = parts[1]
+    user = parts[1]
+    content = parts[2]
 
-    console.log type, content
+    console.log user, userCheck
 
-    if type == "count"
-        $("#voter-count").html(content)
+    if user in userCheck
+       return false 
+    else
+        userCheck.push user
 
-    else if type == "vote"
+    if type == "vote"
         id = +content
         voteCounter[id] += 1
         votes += 1
@@ -48,6 +52,7 @@ setVote = (options) ->
     $vOpts.html("")
 
     votes = 0
+    userCheck = []
     voteCounter = [1..options.length].map -> 0
 
     for opt,i in options
