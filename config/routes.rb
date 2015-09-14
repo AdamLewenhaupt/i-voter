@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   get 'admin' => "admin#index"
   post 'admin/auth' => "admin#auth"
   post 'admin/start' => "admin#start"
-  post 'admin/end' => "admin#end"
+  post 'admin/end' => "admin#stop"
+  post 'update-location' => 'admin#update_location'
 
   get 'polls/latest' => "polls#latest"
   post 'polls/:id/open' => "polls#open"
