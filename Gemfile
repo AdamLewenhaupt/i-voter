@@ -52,4 +52,4 @@ gem 'devise'
 # For verifying wordpress hashes
 gem 'phpass-ruby'
 
-ruby "2.2.2"
+ruby "2.0.0"
