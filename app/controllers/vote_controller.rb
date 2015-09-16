@@ -25,8 +25,7 @@ class VoteController < WebsocketRails::BaseController
     end
 
     def vote
-        # if not controller_store[:user_check].include? current_user["username"]
-        if true
+        if not controller_store[:user_check].include? current_user["username"]
             id = message["id"].to_i
             controller_store[:user_check].push current_user["username"]
             controller_store[:vote_counter][id] += 1
