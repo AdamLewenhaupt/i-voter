@@ -1,4 +1,5 @@
 class VoteController < WebsocketRails::BaseController
+    before_filter :authenticate_user!
 
     def initialize_session
         controller_store[:user_check] = []
@@ -8,22 +9,28 @@ class VoteController < WebsocketRails::BaseController
     end
 
     def init
-        if controller_store[:vote_options] != nil
-            puts controller_store[:vote_counter]
-            if message["admin"]
-                send_message :i, { :options => controller_store[:vote_options], :stats => controller_store[:vote_counter] }
-            else
-                send_message :i, { :options => controller_store[:vote_options].join('|') } 
-            end
+        puts current_user['username']
+        if message["admin"]
+            puts "works.."
+            send_message :i, { 
+                :options => controller_store[:vote_options], 
+                :stats => controller_store[:vote_counter] 
+            }
+        else
+            send_message :i, { 
+                :options => controller_store[:vote_options].join('|'),
+                :voted => controller_store[:user_check].include?(current_user['username']) 
+            }
         end
     end
 
     def vote
-        puts message
-        if not $userChecker.include? message["user"]
+        # if not controller_store[:user_check].include? current_user["username"]
+        if true
             id = message["id"].to_i
-            $userChecker.push message["user"]
-            $voteCounter[id] += 1
+            controller_store[:user_check].push current_user["username"]
+            controller_store[:vote_counter][id] += 1
+            broadcast_message :u, { :id => id }
         end
     end
 

@@ -19,16 +19,25 @@ startFn = (data) ->
 endFn = (data) ->
     toggleHidden(["#inactive", "#display"])
     hasVoted = false
+    $("#vote-btn").removeClass 'btn-success'
+        .html("Rösta")
 
 initFn = (data) ->
     if data.options != undefined
         startFn data
+
+    if data.voted
+        hasVoted = true
+        $("#vote-btn").addClass 'btn-success'
+            .html("Tack för din röst")
 
 debug = (msg) ->
     $("#debug").html(msg)
 
 
 auth = (lat, long, acc) ->
+
+    console.log lat, long, acc
 
     params = 
         lat: lat
@@ -40,7 +49,7 @@ auth = (lat, long, acc) ->
         if auth
             $("#allowed").removeClass("hidden")
             $("#denied").addClass("hidden")
-            isAutenticated = true
+            isAuthenticated = true
 
 
 handlePos = (pos) ->
@@ -59,6 +68,7 @@ posError = (err) ->
 
 posOptions = 
     enableHighAccuracy: true
+    maximumAge: 50
 
 $(document).ready () ->
 

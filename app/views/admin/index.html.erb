@@ -2,11 +2,11 @@
 	<div id="login" class="<%= 'hidden' if session[:valid] %>">
 		<input id="pass" type="password" class="form-control" placeholder="Password" />
 	</div>
-	<div id="panel" class="<%= 'hidden' if not session[:valid] %>">
-		<div class="vote-active <%= 'hidden' if not $voting %>">
+	<div id="panel" >
+        <h1 class="loading">Laddar sida</h1>
+		<div class="vote-active hidden">
 			<h1 id="is-voting" class="text-success">Röstning pågår</h1>
 			<h1 id="done-voting" class="text-primary hidden">Röstning avslutad</h1>
-			<h2>Antal närvarande: <span id="voter-count">--</span></h2>
 			<div class="row">
 				<div class="col-sm-6">
 					<div id="voting-options" class="well"></div>
@@ -17,7 +17,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="vote-init <%= 'hidden' if $voting %>">
+		<div class="vote-init hidden">
 			<div class="row">
 				<div class="col-sm-6">
 					<h1>Sätt upp ny röstning</h1>

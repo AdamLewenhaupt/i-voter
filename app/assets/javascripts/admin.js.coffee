@@ -3,9 +3,8 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 loggedIn = false
-votes = 0
-voteCounter = []
-userCheck = []
+window.votes = 0
+window.voteCounter = []
 
 login = (text) ->
 
@@ -19,36 +18,28 @@ login = (text) ->
             $("#panel").removeClass("hidden")
 
 onInit = (data) ->
-    console.log data
-    setVote data.options
-    stats = data.stats
-
-
-handleMsg = (msg) ->
-    parts = msg.split(":")
-    type = parts[0]
-    user = parts[1]
-    content = parts[2]
-
-    if user in userCheck
-       return false 
+    $(".loading").remove()
+    if data.stats != null
+        window.votes = data.stats.reduce (a,b) -> a + b
+        setVote data.options, data.stats
+        updateFront()
     else
-        userCheck.push user
+        $(".vote-init").removeClass 'hidden'
 
-    if type == "vote"
-        id = +content
-        voteCounter[id] += 1
-        votes += 1
-
-        $(".opt").each (i) ->
-            percent = voteCounter[i] / votes * 100
-
-            $(".opt-title-#{i} span").html voteCounter[i]
-            $(this).children(".progress-bar").attr("aria-valuenow", Math.round percent)
-                .css("width", "#{percent}%")
-                .html "#{ percent.toFixed 2 }%" 
+onVote = (data) ->
+    window.voteCounter[+data.id] += 1 
+    window.votes += 1
+    updateFront()
 
 
+updateFront = () ->
+    $(".opt").each (i) ->
+        percent = window.voteCounter[i] / window.votes * 100
+
+        $(".opt-title-#{i} span").html window.voteCounter[i]
+        $(this).children(".progress-bar").attr("aria-valuenow", Math.round percent)
+            .css("width", "#{percent}%")
+            .html "#{ percent.toFixed 2 }%" 
 
 setVote = (options, stats) ->
     $(".vote-init").addClass "hidden"
@@ -57,12 +48,11 @@ setVote = (options, stats) ->
     $vOpts = $("#voting-options")
     $vOpts.html("")
 
-    votes = 0
-    userCheck = []
-    if stats != null
-        voteCounter = stats
+    if stats != undefined
+        window.voteCounter = stats
     else
-        voteCounter = [1..options.length].map -> 0
+        window.votes = 0
+        window.voteCounter = [1..options.length].map -> 0
 
     for opt,i in options
         $("<p class='opt-title-#{i}'>#{opt} - <span>0</span> röst(er)</p>").appendTo $vOpts
@@ -78,13 +68,12 @@ $(document).ready () ->
         dispatcher.trigger 'init', { admin: true }
 
     dispatcher.bind 'i', onInit
+    dispatcher.bind 'u', onVote 
 
     $(document).keypress (e) ->
         if not loggedIn and e.which == 13 
             login($("#pass").val())
 
-    votes = +$("#total").html()
-    voteCounter = $(".votes").map(-> +$(this).html()).get()
 
     $("#add").click () ->
 

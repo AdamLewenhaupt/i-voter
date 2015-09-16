@@ -1,14 +1,13 @@
 <div class="container">
 	<p id="debug"></p>
 	<h1>I-Voter</h1>
-    <div id="user" class="hidden"><%= current_user[:username] %></div>
 	<div class="row">
 		<div class="col-sm-6">
 			<p id="ws-offline" class="text-danger">Offline</p>
 			<p id="ws-online" class="text-success hidden">Online</p>
 		</div>
 		<div class="col-sm-6 access">
-			<p id="denied" class="text-danger">Ej tillträde - Du är ej i SingSing</p>
+			<p id="denied" class="text-danger">Ej inom räckhåll</p>
 			<p id="allowed" class="text-success hidden">Godkänd</p>
 		</div>
 	</div>
@@ -31,7 +30,7 @@
 		<br/>
 		<button class="btn btn-success btn-lg btn-block" id="login">Logga in</button>
 	</div>
-	<div id="inactive" class="<%= 'hidden' if $voting %>">
+	<div id="inactive" >
 		<h2>Vänligen invänta röstning</h2>
 	</div>
 </div>

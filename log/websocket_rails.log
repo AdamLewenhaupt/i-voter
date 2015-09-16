@@ -911,3 +911,1082 @@ I [2015-09-16 14:28:48.892] [[32mDispatcher[0m] [36mName:[0m init
 I [2015-09-16 14:28:48.892] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
 I [2015-09-16 14:28:48.892] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::067044372301a5db72c8>
 I [2015-09-16 14:28:48.895] [[32mDispatcher[0m] Event init Finished in 0.002625217 seconds
+I [2015-09-16 14:31:04.938] [[32mConnectionManager[0m] Connection closed: #<Connection::067044372301a5db72c8>
+I [2015-09-16 14:31:06.301] [[32mConnectionManager[0m] Connection opened: #<Connection::faadb5f5164a1dc21ac7>
+I [2015-09-16 14:31:06.351] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:31:06.351] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:31:06.351] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:31:06.351] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::faadb5f5164a1dc21ac7>
+I [2015-09-16 14:31:06.354] [[32mDispatcher[0m] Event init Finished in 0.002921329 seconds
+I [2015-09-16 14:33:45.408] [[32mConnectionManager[0m] Connection closed: #<Connection::faadb5f5164a1dc21ac7>
+I [2015-09-16 14:33:52.459] [[32mConnectionManager[0m] Connection opened: #<Connection::88774d3368353eef2960>
+I [2015-09-16 14:33:52.519] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:33:52.519] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:33:52.519] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:33:52.519] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::88774d3368353eef2960>
+I [2015-09-16 14:33:52.521] [[32mDispatcher[0m] Event init Finished in 0.002075581 seconds
+I [2015-09-16 14:35:34.388] [[32mConnectionManager[0m] Connection closed: #<Connection::88774d3368353eef2960>
+I [2015-09-16 14:35:35.668] [[32mConnectionManager[0m] Connection opened: #<Connection::d0671d9592a33d48d57b>
+I [2015-09-16 14:35:35.736] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:35:35.736] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:35:35.736] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:35:35.736] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d0671d9592a33d48d57b>
+I [2015-09-16 14:35:35.739] [[32mDispatcher[0m] Event init Finished in 0.002116968 seconds
+I [2015-09-16 14:36:03.388] [[32mConnectionManager[0m] Connection closed: #<Connection::d0671d9592a33d48d57b>
+I [2015-09-16 14:36:04.636] [[32mConnectionManager[0m] Connection opened: #<Connection::ef77297517bfad65422f>
+I [2015-09-16 14:36:04.760] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:36:04.760] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:36:04.760] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:36:04.760] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ef77297517bfad65422f>
+I [2015-09-16 14:36:04.764] [[32mDispatcher[0m] Event init Finished in 0.003786962 seconds
+I [2015-09-16 14:39:10.956] [[32mConnectionManager[0m] Connection closed: #<Connection::b64eecb669be06fab0a5>
+I [2015-09-16 14:39:13.446] [[32mConnectionManager[0m] Connection opened: #<Connection::514ae799957101edfcac>
+I [2015-09-16 14:39:14.216] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:39:14.216] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:39:14.217] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 14:39:14.217] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::514ae799957101edfcac>
+I [2015-09-16 14:39:14.225] [[32mDispatcher[0m] Event init Finished in 0.008273799 seconds
+I [2015-09-16 14:39:19.611] [[32mConnectionManager[0m] Connection closed: #<Connection::514ae799957101edfcac>
+I [2015-09-16 14:39:21.193] [[32mConnectionManager[0m] Connection opened: #<Connection::66a91e69d44d09950b5f>
+I [2015-09-16 14:39:21.290] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:39:21.290] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:39:21.290] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:39:21.290] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::66a91e69d44d09950b5f>
+I [2015-09-16 14:39:21.293] [[32mDispatcher[0m] Event init Finished in 0.002070961 seconds
+I [2015-09-16 14:39:25.384] [[32mConnectionManager[0m] Connection closed: #<Connection::66a91e69d44d09950b5f>
+I [2015-09-16 14:39:28.358] [[32mConnectionManager[0m] Connection opened: #<Connection::dca5b06f6229bacfc15d>
+I [2015-09-16 14:39:28.414] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:39:28.414] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:39:28.414] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:39:28.414] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dca5b06f6229bacfc15d>
+I [2015-09-16 14:39:28.417] [[32mDispatcher[0m] Event init Finished in 0.002256637 seconds
+I [2015-09-16 14:39:32.818] [[32mConnectionManager[0m] Connection closed: #<Connection::dca5b06f6229bacfc15d>
+I [2015-09-16 14:39:34.885] [[32mConnectionManager[0m] Connection opened: #<Connection::5316dd41a3b7dc78c68f>
+I [2015-09-16 14:39:34.939] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:39:34.939] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:39:34.939] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:39:34.939] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5316dd41a3b7dc78c68f>
+I [2015-09-16 14:39:34.941] [[32mDispatcher[0m] Event init Finished in 0.001715005 seconds
+I [2015-09-16 14:39:44.569] [[32mConnectionManager[0m] Connection closed: #<Connection::5316dd41a3b7dc78c68f>
+I [2015-09-16 14:39:47.254] [[32mConnectionManager[0m] Connection opened: #<Connection::383fb006281054990700>
+I [2015-09-16 14:39:47.347] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:39:47.347] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:39:47.347] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:39:47.347] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::383fb006281054990700>
+I [2015-09-16 14:39:47.383] [[32mDispatcher[0m] Event init Finished in 0.035310552 seconds
+I [2015-09-16 14:41:15.756] [[32mConnectionManager[0m] Connection closed: #<Connection::383fb006281054990700>
+I [2015-09-16 14:41:17.651] [[32mConnectionManager[0m] Connection opened: #<Connection::6bcff3dbf77ebf957211>
+I [2015-09-16 14:41:17.665] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:41:17.665] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:41:17.665] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:41:17.665] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6bcff3dbf77ebf957211>
+I [2015-09-16 14:41:17.671] [[32mDispatcher[0m] Event init Finished in 0.004967941 seconds
+I [2015-09-16 14:41:36.420] [[32mConnectionManager[0m] Connection opened: #<Connection::fd9f28db2ef07ce2f395>
+I [2015-09-16 14:41:37.649] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:41:37.650] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:41:37.650] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 14:41:37.650] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fd9f28db2ef07ce2f395>
+I [2015-09-16 14:41:37.652] [[32mDispatcher[0m] Event init Finished in 0.002070217 seconds
+I [2015-09-16 14:41:40.965] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 14:41:40.965] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 14:41:40.965] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 14:41:40.965] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fd9f28db2ef07ce2f395>
+I [2015-09-16 14:41:40.969] [[32mDispatcher[0m] Event start Finished in 0.003112093 seconds
+I [2015-09-16 14:41:43.353] [[32mConnectionManager[0m] Connection closed: #<Connection::6bcff3dbf77ebf957211>
+I [2015-09-16 14:41:45.691] [[32mConnectionManager[0m] Connection opened: #<Connection::7ea50e82c0628b2c0a14>
+I [2015-09-16 14:41:45.781] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:41:45.781] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:41:45.781] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:41:45.781] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7ea50e82c0628b2c0a14>
+I [2015-09-16 14:41:45.784] [[32mDispatcher[0m] Event init Finished in 0.002792737 seconds
+I [2015-09-16 14:44:18.404] [[32mConnectionManager[0m] Connection closed: #<Connection::7ea50e82c0628b2c0a14>
+I [2015-09-16 14:44:20.219] [[32mConnectionManager[0m] Connection opened: #<Connection::3ef0fd2e97307ed5da2e>
+I [2015-09-16 14:44:20.235] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:44:20.235] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:44:20.235] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:44:20.235] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3ef0fd2e97307ed5da2e>
+I [2015-09-16 14:44:20.239] [[32mDispatcher[0m] Event init Finished in 0.003441637 seconds
+I [2015-09-16 14:47:19.758] [[32mConnectionManager[0m] Connection closed: #<Connection::3ef0fd2e97307ed5da2e>
+I [2015-09-16 14:47:23.837] [[32mConnectionManager[0m] Connection opened: #<Connection::d5de5c1681d48a8cbb20>
+I [2015-09-16 14:47:24.702] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:47:24.704] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:47:24.705] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:47:24.706] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d5de5c1681d48a8cbb20>
+I [2015-09-16 14:47:24.726] [[32mDispatcher[0m] Event init Finished in 0.001788108 seconds
+I [2015-09-16 14:47:26.330] [[32mConnectionManager[0m] Connection closed: #<Connection::fd9f28db2ef07ce2f395>
+I [2015-09-16 14:47:28.177] [[32mConnectionManager[0m] Connection opened: #<Connection::bc076184d1e09b1ce91e>
+I [2015-09-16 14:47:28.711] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:47:28.711] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:47:28.711] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 14:47:28.711] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::bc076184d1e09b1ce91e>
+I [2015-09-16 14:47:28.713] [[32mDispatcher[0m] Event init Finished in 0.001679509 seconds
+I [2015-09-16 14:47:33.711] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 14:47:33.711] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 14:47:33.711] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 14:47:33.712] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::bc076184d1e09b1ce91e>
+I [2015-09-16 14:47:33.714] [[32mDispatcher[0m] Event start Finished in 0.002513713 seconds
+I [2015-09-16 14:47:36.164] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 14:47:36.164] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 14:47:36.164] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 14:47:36.165] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d5de5c1681d48a8cbb20>
+I [2015-09-16 14:47:36.167] [[32mDispatcher[0m] Event vote Finished in 0.001885105 seconds
+I [2015-09-16 14:47:39.706] [[32mConnectionManager[0m] Connection closed: #<Connection::bc076184d1e09b1ce91e>
+I [2015-09-16 14:47:41.596] [[32mConnectionManager[0m] Connection opened: #<Connection::078d6f8885a3af2afa49>
+I [2015-09-16 14:47:42.130] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:47:42.130] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:47:42.131] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 14:47:42.131] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::078d6f8885a3af2afa49>
+I [2015-09-16 14:47:42.135] [[32mDispatcher[0m] Event init Finished in 0.003419893 seconds
+I [2015-09-16 14:49:11.987] [[32mConnectionManager[0m] Connection closed: #<Connection::078d6f8885a3af2afa49>
+I [2015-09-16 14:49:14.589] [[32mConnectionManager[0m] Connection opened: #<Connection::1b672c56a326e0f70061>
+I [2015-09-16 14:49:15.293] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:49:15.293] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:49:15.293] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 14:49:15.293] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1b672c56a326e0f70061>
+I [2015-09-16 14:49:15.296] [[32mDispatcher[0m] Event init Finished in 0.002835961 seconds
+I [2015-09-16 14:53:17.280] [[32mConnectionManager[0m] Connection closed: #<Connection::1b672c56a326e0f70061>
+I [2015-09-16 14:53:19.901] [[32mConnectionManager[0m] Connection opened: #<Connection::112de6046642945883dd>
+I [2015-09-16 14:53:20.663] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:53:20.663] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:53:20.663] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 14:53:20.664] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::112de6046642945883dd>
+I [2015-09-16 14:53:20.667] [[32mDispatcher[0m] Event init Finished in 0.002968813 seconds
+I [2015-09-16 14:53:58.679] [[32mConnectionManager[0m] Connection closed: #<Connection::112de6046642945883dd>
+I [2015-09-16 14:54:01.662] [[32mConnectionManager[0m] Connection opened: #<Connection::09108d035527b40a5f71>
+I [2015-09-16 14:54:02.449] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:54:02.449] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:54:02.449] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 14:54:02.449] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::09108d035527b40a5f71>
+I [2015-09-16 14:54:02.451] [[32mDispatcher[0m] Event init Finished in 0.002240833 seconds
+I [2015-09-16 14:54:32.173] [[32mConnectionManager[0m] Connection closed: #<Connection::09108d035527b40a5f71>
+I [2015-09-16 14:54:35.322] [[32mConnectionManager[0m] Connection opened: #<Connection::c4be6b6498b474c9cd8c>
+I [2015-09-16 14:54:35.799] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:54:35.800] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:54:35.800] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 14:54:35.800] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c4be6b6498b474c9cd8c>
+I [2015-09-16 14:54:35.804] [[32mDispatcher[0m] Event init Finished in 0.00389507 seconds
+I [2015-09-16 14:55:02.734] [[32mConnectionManager[0m] Connection closed: #<Connection::c4be6b6498b474c9cd8c>
+I [2015-09-16 14:55:05.549] [[32mConnectionManager[0m] Connection opened: #<Connection::65d7f0708f8ffb9c0840>
+I [2015-09-16 14:55:05.663] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:55:05.663] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:55:05.663] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 14:55:05.663] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::65d7f0708f8ffb9c0840>
+I [2015-09-16 14:55:05.666] [[32mDispatcher[0m] Event init Finished in 0.003033409 seconds
+I [2015-09-16 14:55:10.832] [[32mConnectionManager[0m] Connection closed: #<Connection::65d7f0708f8ffb9c0840>
+I [2015-09-16 14:55:13.686] [[32mConnectionManager[0m] Connection opened: #<Connection::1fa60c5bb274d51c0e24>
+I [2015-09-16 14:55:13.857] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:55:13.857] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:55:13.857] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 14:55:13.857] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1fa60c5bb274d51c0e24>
+I [2015-09-16 14:55:13.860] [[32mDispatcher[0m] Event init Finished in 0.002483581 seconds
+I [2015-09-16 14:55:33.942] [[32mConnectionManager[0m] Connection closed: #<Connection::1fa60c5bb274d51c0e24>
+I [2015-09-16 14:55:36.950] [[32mConnectionManager[0m] Connection opened: #<Connection::71e297f988835345a473>
+I [2015-09-16 14:55:37.232] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:55:37.232] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:55:37.232] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 14:55:37.232] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::71e297f988835345a473>
+I [2015-09-16 14:55:37.235] [[32mDispatcher[0m] Event init Finished in 0.002941285 seconds
+I [2015-09-16 14:58:29.542] [[32mConnectionManager[0m] Connection closed: #<Connection::71e297f988835345a473>
+I [2015-09-16 14:58:32.423] [[32mConnectionManager[0m] Connection opened: #<Connection::6b2c63fd357af32e461e>
+I [2015-09-16 14:58:32.151] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:58:32.152] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:58:32.152] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 14:58:32.152] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6b2c63fd357af32e461e>
+I [2015-09-16 14:58:32.155] [[32mDispatcher[0m] Event init Finished in 0.003115501 seconds
+I [2015-09-16 14:58:34.751] [[32mConnectionManager[0m] Connection closed: #<Connection::d5de5c1681d48a8cbb20>
+I [2015-09-16 14:58:36.690] [[32mConnectionManager[0m] Connection opened: #<Connection::33cfbc7859af32480cbd>
+I [2015-09-16 14:58:36.752] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:58:36.752] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:58:36.752] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:58:36.752] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::33cfbc7859af32480cbd>
+I [2015-09-16 14:58:36.755] [[32mDispatcher[0m] Event init Finished in 0.002503501 seconds
+I [2015-09-16 14:58:38.768] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 14:58:38.768] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 14:58:38.768] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 14:58:38.768] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::33cfbc7859af32480cbd>
+I [2015-09-16 14:58:38.770] [[32mDispatcher[0m] Event vote Finished in 0.001615188 seconds
+I [2015-09-16 14:59:44.908] [[32mConnectionManager[0m] Connection closed: #<Connection::6b2c63fd357af32e461e>
+I [2015-09-16 14:59:47.177] [[32mConnectionManager[0m] Connection opened: #<Connection::5c1897370b9630eda304>
+I [2015-09-16 14:59:47.273] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:59:47.273] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:59:47.273] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 14:59:47.273] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5c1897370b9630eda304>
+I [2015-09-16 14:59:47.283] [[32mDispatcher[0m] Event init Finished in 0.009780292 seconds
+I [2015-09-16 14:59:53.485] [[32mConnectionManager[0m] Connection closed: #<Connection::33cfbc7859af32480cbd>
+I [2015-09-16 14:59:55.494] [[32mConnectionManager[0m] Connection opened: #<Connection::4a0da1ba3149ec4b4213>
+I [2015-09-16 14:59:55.601] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 14:59:55.601] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 14:59:55.601] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 14:59:55.601] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4a0da1ba3149ec4b4213>
+I [2015-09-16 14:59:55.603] [[32mDispatcher[0m] Event init Finished in 0.001829281 seconds
+I [2015-09-16 15:00:36.177] [[32mConnectionManager[0m] Connection closed: #<Connection::5c1897370b9630eda304>
+I [2015-09-16 15:00:39.882] [[32mConnectionManager[0m] Connection opened: #<Connection::ffdd62c67cf86fa91ed8>
+I [2015-09-16 15:00:40.582] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:00:40.582] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:00:40.582] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:00:40.582] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ffdd62c67cf86fa91ed8>
+I [2015-09-16 15:00:40.584] [[32mDispatcher[0m] Event init Finished in 0.001742964 seconds
+I [2015-09-16 15:00:43.905] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:00:43.905] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:00:43.905] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 15:00:43.905] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ffdd62c67cf86fa91ed8>
+I [2015-09-16 15:00:43.908] [[32mDispatcher[0m] Event start Finished in 0.003033709 seconds
+I [2015-09-16 15:00:50.354] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:00:50.356] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:00:50.357] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:00:50.359] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4a0da1ba3149ec4b4213>
+I [2015-09-16 15:00:50.378] [[32mDispatcher[0m] Event vote Finished in 0.001717513 seconds
+I [2015-09-16 15:00:55.322] [[32mConnectionManager[0m] Connection closed: #<Connection::ffdd62c67cf86fa91ed8>
+I [2015-09-16 15:00:57.983] [[32mConnectionManager[0m] Connection opened: #<Connection::e8a1d1fbad2367f12f2c>
+I [2015-09-16 15:00:58.208] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:00:58.209] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:00:58.209] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:00:58.209] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e8a1d1fbad2367f12f2c>
+I [2015-09-16 15:00:58.211] [[32mDispatcher[0m] Event init Finished in 0.002460217 seconds
+I [2015-09-16 15:01:03.594] [[32mConnectionManager[0m] Connection closed: #<Connection::4a0da1ba3149ec4b4213>
+I [2015-09-16 15:01:06.303] [[32mConnectionManager[0m] Connection opened: #<Connection::5a0269b9aeb02373c12a>
+I [2015-09-16 15:01:06.446] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:01:06.446] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:01:06.446] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:01:06.446] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5a0269b9aeb02373c12a>
+I [2015-09-16 15:01:06.449] [[32mDispatcher[0m] Event init Finished in 0.002504365 seconds
+I [2015-09-16 15:01:09.871] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:01:09.873] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:01:09.874] [[32mDispatcher[0m] [36mData:[0m {"id"=>"1"}
+I [2015-09-16 15:01:09.875] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5a0269b9aeb02373c12a>
+I [2015-09-16 15:01:09.893] [[32mDispatcher[0m] Event vote Finished in 0.001568953 seconds
+I [2015-09-16 15:01:11.712] [[32mConnectionManager[0m] Connection closed: #<Connection::e8a1d1fbad2367f12f2c>
+I [2015-09-16 15:01:13.706] [[32mConnectionManager[0m] Connection opened: #<Connection::c1e2f8e18962b86b80e8>
+I [2015-09-16 15:01:14.467] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:01:14.467] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:01:14.467] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:01:14.467] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c1e2f8e18962b86b80e8>
+I [2015-09-16 15:01:14.472] [[32mDispatcher[0m] Event init Finished in 0.004203841 seconds
+I [2015-09-16 15:01:57.125] [[32mConnectionManager[0m] Connection closed: #<Connection::c1e2f8e18962b86b80e8>
+I [2015-09-16 15:01:58.456] [[32mConnectionManager[0m] Connection closed: #<Connection::5a0269b9aeb02373c12a>
+I [2015-09-16 15:02:01.890] [[32mConnectionManager[0m] Connection opened: #<Connection::7a46fc203e864bd33234>
+I [2015-09-16 15:02:02.517] [[32mConnectionManager[0m] Connection opened: #<Connection::1eb39fd1a584f00d80bf>
+I [2015-09-16 15:02:02.550] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:02:02.550] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:02:02.551] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:02:02.551] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7a46fc203e864bd33234>
+I [2015-09-16 15:02:02.553] [[32mDispatcher[0m] Event init Finished in 0.002219281 seconds
+I [2015-09-16 15:02:03.295] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:02:03.296] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:02:03.296] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:02:03.296] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1eb39fd1a584f00d80bf>
+I [2015-09-16 15:02:03.299] [[32mDispatcher[0m] Event init Finished in 0.002554981 seconds
+I [2015-09-16 15:02:06.383] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:02:06.383] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:02:06.383] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 15:02:06.383] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1eb39fd1a584f00d80bf>
+I [2015-09-16 15:02:06.386] [[32mDispatcher[0m] Event start Finished in 0.002692537 seconds
+I [2015-09-16 15:02:08.466] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:02:08.466] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:02:08.466] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:02:08.466] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7a46fc203e864bd33234>
+I [2015-09-16 15:02:08.469] [[32mDispatcher[0m] Event vote Finished in 0.002999797 seconds
+I [2015-09-16 15:02:33.476] [[32mConnectionManager[0m] Connection closed: #<Connection::1eb39fd1a584f00d80bf>
+I [2015-09-16 15:02:34.924] [[32mConnectionManager[0m] Connection closed: #<Connection::7a46fc203e864bd33234>
+I [2015-09-16 15:02:38.797] [[32mConnectionManager[0m] Connection opened: #<Connection::6872b4c59cde5ff2b931>
+I [2015-09-16 15:02:38.947] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:02:38.947] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:02:38.948] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:02:38.948] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6872b4c59cde5ff2b931>
+I [2015-09-16 15:02:38.954] [[32mDispatcher[0m] Event init Finished in 0.00639329 seconds
+I [2015-09-16 15:02:39.756] [[32mConnectionManager[0m] Connection opened: #<Connection::4f7c7dfef5cc3563b4f0>
+I [2015-09-16 15:02:39.931] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:02:39.931] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:02:39.931] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:02:39.931] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4f7c7dfef5cc3563b4f0>
+I [2015-09-16 15:02:39.935] [[32mDispatcher[0m] Event init Finished in 0.003054121 seconds
+I [2015-09-16 15:02:42.425] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:02:42.425] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:02:42.425] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:02:42.425] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6872b4c59cde5ff2b931>
+I [2015-09-16 15:02:42.428] [[32mDispatcher[0m] Event vote Finished in 0.002591928 seconds
+I [2015-09-16 15:02:48.127] [[32mConnectionManager[0m] Connection closed: #<Connection::6872b4c59cde5ff2b931>
+I [2015-09-16 15:02:50.705] [[32mConnectionManager[0m] Connection opened: #<Connection::b5080a7b1a8fbcb6536f>
+I [2015-09-16 15:02:50.841] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:02:50.841] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:02:50.841] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:02:50.841] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b5080a7b1a8fbcb6536f>
+I [2015-09-16 15:02:50.844] [[32mDispatcher[0m] Event init Finished in 0.002785429 seconds
+I [2015-09-16 15:02:53.303] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:02:53.303] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:02:53.303] [[32mDispatcher[0m] [36mData:[0m {"id"=>"1"}
+I [2015-09-16 15:02:53.303] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b5080a7b1a8fbcb6536f>
+I [2015-09-16 15:02:53.307] [[32mDispatcher[0m] Event vote Finished in 0.003971425 seconds
+I [2015-09-16 15:03:03.973] [[32mConnectionManager[0m] Connection closed: #<Connection::b5080a7b1a8fbcb6536f>
+I [2015-09-16 15:03:06.348] [[32mConnectionManager[0m] Connection opened: #<Connection::7f2fcab1da619eadfcb8>
+I [2015-09-16 15:03:06.437] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:03:06.438] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:03:06.438] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:03:06.438] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7f2fcab1da619eadfcb8>
+I [2015-09-16 15:03:06.440] [[32mDispatcher[0m] Event init Finished in 0.002387784 seconds
+I [2015-09-16 15:03:08.947] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:03:08.947] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:03:08.948] [[32mDispatcher[0m] [36mData:[0m {"id"=>"1"}
+I [2015-09-16 15:03:08.948] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7f2fcab1da619eadfcb8>
+I [2015-09-16 15:03:08.950] [[32mDispatcher[0m] Event vote Finished in 0.002534293 seconds
+I [2015-09-16 15:04:06.123] [[32mConnectionManager[0m] Connection closed: #<Connection::4f7c7dfef5cc3563b4f0>
+I [2015-09-16 15:04:08.918] [[32mConnectionManager[0m] Connection opened: #<Connection::7ca357026101cc6d7e9e>
+I [2015-09-16 15:04:09.703] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:04:09.704] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:04:09.704] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:04:09.704] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7ca357026101cc6d7e9e>
+I [2015-09-16 15:04:09.707] [[32mDispatcher[0m] Event init Finished in 0.002935393 seconds
+I [2015-09-16 15:04:11.508] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 15:04:11.508] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 15:04:11.508] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 15:04:11.509] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7ca357026101cc6d7e9e>
+I [2015-09-16 15:04:11.512] [[32mDispatcher[0m] Event end Finished in 0.003664766 seconds
+I [2015-09-16 15:04:17.208] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:04:17.208] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:04:17.208] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 15:04:17.209] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7ca357026101cc6d7e9e>
+I [2015-09-16 15:04:17.212] [[32mDispatcher[0m] Event start Finished in 0.003347185 seconds
+I [2015-09-16 15:04:18.869] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:04:18.869] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:04:18.869] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:04:18.870] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7f2fcab1da619eadfcb8>
+I [2015-09-16 15:04:18.872] [[32mDispatcher[0m] Event vote Finished in 0.002551992 seconds
+I [2015-09-16 15:04:19.777] [[32mConnectionManager[0m] Connection closed: #<Connection::7f2fcab1da619eadfcb8>
+I [2015-09-16 15:04:22.570] [[32mConnectionManager[0m] Connection opened: #<Connection::2d7fc9582b78a0686a5f>
+I [2015-09-16 15:04:22.685] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:04:22.685] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:04:22.685] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:04:22.686] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::2d7fc9582b78a0686a5f>
+I [2015-09-16 15:04:22.689] [[32mDispatcher[0m] Event init Finished in 0.00277944 seconds
+I [2015-09-16 15:04:24.984] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:04:24.999] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:04:24.100] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:04:24.102] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::2d7fc9582b78a0686a5f>
+I [2015-09-16 15:04:24.130] [[32mDispatcher[0m] Event vote Finished in 0.002652649 seconds
+I [2015-09-16 15:06:54.478] [[32mConnectionManager[0m] Connection closed: #<Connection::7ca357026101cc6d7e9e>
+I [2015-09-16 15:06:57.657] [[32mConnectionManager[0m] Connection opened: #<Connection::3ac5b4d5af392f4be571>
+I [2015-09-16 15:06:58.229] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:06:58.229] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:06:58.229] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:06:58.229] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3ac5b4d5af392f4be571>
+I [2015-09-16 15:06:58.232] [[32mDispatcher[0m] Event init Finished in 0.003180457 seconds
+I [2015-09-16 15:07:07.705] [[32mConnectionManager[0m] Connection closed: #<Connection::2d7fc9582b78a0686a5f>
+I [2015-09-16 15:07:09.149] [[32mConnectionManager[0m] Connection opened: #<Connection::9947689ccffc104191a6>
+I [2015-09-16 15:07:09.292] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:07:09.292] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:07:09.292] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:07:09.292] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::9947689ccffc104191a6>
+I [2015-09-16 15:07:09.295] [[32mDispatcher[0m] Event init Finished in 0.00220956 seconds
+I [2015-09-16 15:07:11.444] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:07:11.444] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:07:11.445] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:07:11.445] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::9947689ccffc104191a6>
+I [2015-09-16 15:07:11.448] [[32mDispatcher[0m] Event vote Finished in 0.002734417 seconds
+I [2015-09-16 15:07:14.233] [[32mConnectionManager[0m] Connection closed: #<Connection::9947689ccffc104191a6>
+I [2015-09-16 15:07:16.880] [[32mConnectionManager[0m] Connection opened: #<Connection::85596b2626cc147504b3>
+I [2015-09-16 15:07:16.998] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:07:16.998] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:07:16.998] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:07:16.998] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::85596b2626cc147504b3>
+I [2015-09-16 15:07:17.160] [[32mDispatcher[0m] Event init Finished in 0.002456773 seconds
+I [2015-09-16 15:07:19.613] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:07:19.613] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:07:19.613] [[32mDispatcher[0m] [36mData:[0m {"id"=>"1"}
+I [2015-09-16 15:07:19.613] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::85596b2626cc147504b3>
+I [2015-09-16 15:07:19.616] [[32mDispatcher[0m] Event vote Finished in 0.002810005 seconds
+I [2015-09-16 15:07:29.403] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 15:07:29.403] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 15:07:29.403] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 15:07:29.404] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3ac5b4d5af392f4be571>
+I [2015-09-16 15:07:29.407] [[32mDispatcher[0m] Event end Finished in 0.00346061 seconds
+I [2015-09-16 15:07:33.850] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:07:33.850] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:07:33.850] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 15:07:33.850] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3ac5b4d5af392f4be571>
+I [2015-09-16 15:07:33.855] [[32mDispatcher[0m] Event start Finished in 0.003669637 seconds
+I [2015-09-16 15:07:34.952] [[32mConnectionManager[0m] Connection closed: #<Connection::85596b2626cc147504b3>
+I [2015-09-16 15:07:37.290] [[32mConnectionManager[0m] Connection opened: #<Connection::e6da2beb09c9e838764a>
+I [2015-09-16 15:07:37.437] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:07:37.437] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:07:37.437] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:07:37.438] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e6da2beb09c9e838764a>
+I [2015-09-16 15:07:37.441] [[32mDispatcher[0m] Event init Finished in 0.002965453 seconds
+I [2015-09-16 15:07:39.287] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:07:39.287] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:07:39.287] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:07:39.287] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e6da2beb09c9e838764a>
+I [2015-09-16 15:07:39.290] [[32mDispatcher[0m] Event vote Finished in 0.002503896 seconds
+I [2015-09-16 15:08:31.810] [[32mConnectionManager[0m] Connection closed: #<Connection::e6da2beb09c9e838764a>
+I [2015-09-16 15:08:33.534] [[32mConnectionManager[0m] Connection opened: #<Connection::c5faa4857e018c3d2f31>
+I [2015-09-16 15:08:33.547] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:08:33.547] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:08:33.547] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:08:33.547] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c5faa4857e018c3d2f31>
+I [2015-09-16 15:08:33.549] [[32mDispatcher[0m] Event init Finished in 0.002040181 seconds
+I [2015-09-16 15:08:41.569] [[32mConnectionManager[0m] Connection closed: #<Connection::3ac5b4d5af392f4be571>
+I [2015-09-16 15:08:44.532] [[32mConnectionManager[0m] Connection opened: #<Connection::db133643b237cf200fab>
+I [2015-09-16 15:08:44.753] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:08:44.753] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:08:44.753] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:08:44.753] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::db133643b237cf200fab>
+I [2015-09-16 15:08:44.756] [[32mDispatcher[0m] Event init Finished in 0.002441797 seconds
+I [2015-09-16 15:08:47.346] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 15:08:47.346] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 15:08:47.346] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 15:08:47.347] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::db133643b237cf200fab>
+I [2015-09-16 15:08:47.350] [[32mDispatcher[0m] Event end Finished in 0.002983525 seconds
+I [2015-09-16 15:08:52.595] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:08:52.595] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:08:52.595] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 15:08:52.595] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::db133643b237cf200fab>
+I [2015-09-16 15:08:52.598] [[32mDispatcher[0m] Event start Finished in 0.002451085 seconds
+I [2015-09-16 15:13:51.829] [[32mConnectionManager[0m] Connection closed: #<Connection::db133643b237cf200fab>
+I [2015-09-16 15:13:54.505] [[32mConnectionManager[0m] Connection opened: #<Connection::1b022c81ef9f504bd8e2>
+I [2015-09-16 15:13:55.277] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:13:55.277] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:13:55.277] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:13:55.277] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1b022c81ef9f504bd8e2>
+I [2015-09-16 15:13:55.281] [[32mDispatcher[0m] Event init Finished in 0.003711265 seconds
+I [2015-09-16 15:13:56.901] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 15:13:56.902] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 15:13:56.902] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 15:13:56.902] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1b022c81ef9f504bd8e2>
+I [2015-09-16 15:13:56.905] [[32mDispatcher[0m] Event end Finished in 0.003503581 seconds
+I [2015-09-16 15:14:01.850] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:14:01.850] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:14:01.850] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 15:14:01.850] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1b022c81ef9f504bd8e2>
+I [2015-09-16 15:14:01.854] [[32mDispatcher[0m] Event start Finished in 0.003450385 seconds
+I [2015-09-16 15:14:19.294] [[32mConnectionManager[0m] Connection closed: #<Connection::1b022c81ef9f504bd8e2>
+I [2015-09-16 15:14:22.733] [[32mConnectionManager[0m] Connection opened: #<Connection::eb622db1e5e764868d43>
+I [2015-09-16 15:14:22.948] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:14:22.948] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:14:22.948] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:14:22.948] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::eb622db1e5e764868d43>
+I [2015-09-16 15:14:22.953] [[32mDispatcher[0m] Event init Finished in 0.004204429 seconds
+I [2015-09-16 15:14:40.713] [[32mConnectionManager[0m] Connection closed: #<Connection::eb622db1e5e764868d43>
+I [2015-09-16 15:14:43.106] [[32mConnectionManager[0m] Connection opened: #<Connection::737b41970039192d4422>
+I [2015-09-16 15:14:43.262] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:14:43.262] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:14:43.262] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:14:43.262] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::737b41970039192d4422>
+I [2015-09-16 15:14:43.265] [[32mDispatcher[0m] Event init Finished in 0.002746681 seconds
+I [2015-09-16 15:14:44.530] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 15:14:44.530] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 15:14:44.531] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 15:14:44.531] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::737b41970039192d4422>
+I [2015-09-16 15:14:44.535] [[32mDispatcher[0m] Event end Finished in 0.003572185 seconds
+I [2015-09-16 15:14:50.755] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:14:50.755] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:14:50.755] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 15:14:50.756] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::737b41970039192d4422>
+I [2015-09-16 15:14:50.759] [[32mDispatcher[0m] Event start Finished in 0.003447661 seconds
+I [2015-09-16 15:15:24.526] [[32mConnectionManager[0m] Connection closed: #<Connection::737b41970039192d4422>
+I [2015-09-16 15:15:27.671] [[32mConnectionManager[0m] Connection opened: #<Connection::5503404e2a7af5bb504e>
+I [2015-09-16 15:15:28.381] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:15:28.381] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:15:28.381] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:15:28.381] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5503404e2a7af5bb504e>
+I [2015-09-16 15:15:28.385] [[32mDispatcher[0m] Event init Finished in 0.003049549 seconds
+I [2015-09-16 15:15:29.753] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 15:15:29.753] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 15:15:29.753] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 15:15:29.753] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5503404e2a7af5bb504e>
+I [2015-09-16 15:15:29.757] [[32mDispatcher[0m] Event end Finished in 0.003266749 seconds
+I [2015-09-16 15:15:33.624] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:15:33.624] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:15:33.624] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 15:15:33.625] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5503404e2a7af5bb504e>
+I [2015-09-16 15:15:33.627] [[32mDispatcher[0m] Event start Finished in 0.002695561 seconds
+I [2015-09-16 15:16:01.120] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:16:01.120] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:16:01.120] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:16:01.120] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c5faa4857e018c3d2f31>
+I [2015-09-16 15:16:01.123] [[32mDispatcher[0m] Event vote Finished in 0.002704729 seconds
+I [2015-09-16 15:16:03.251] [[32mConnectionManager[0m] Connection closed: #<Connection::5503404e2a7af5bb504e>
+I [2015-09-16 15:16:05.834] [[32mConnectionManager[0m] Connection opened: #<Connection::2bf2d82b73a1efb63250>
+I [2015-09-16 15:16:06.388] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:16:06.388] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:16:06.388] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:16:06.388] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::2bf2d82b73a1efb63250>
+I [2015-09-16 15:16:06.391] [[32mDispatcher[0m] Event init Finished in 0.002748373 seconds
+I [2015-09-16 15:16:07.929] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 15:16:07.929] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 15:16:07.929] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 15:16:07.929] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::2bf2d82b73a1efb63250>
+I [2015-09-16 15:16:07.933] [[32mDispatcher[0m] Event end Finished in 0.00416705 seconds
+I [2015-09-16 15:16:12.241] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:16:12.241] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:16:12.241] [[32mDispatcher[0m] [36mData:[0m {"options"=>["c", "d"]}
+I [2015-09-16 15:16:12.241] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::2bf2d82b73a1efb63250>
+I [2015-09-16 15:16:12.245] [[32mDispatcher[0m] Event start Finished in 0.003143005 seconds
+I [2015-09-16 15:16:15.175] [[32mConnectionManager[0m] Connection closed: #<Connection::c5faa4857e018c3d2f31>
+I [2015-09-16 15:16:17.467] [[32mConnectionManager[0m] Connection opened: #<Connection::294a46c0e2fb237dcad0>
+I [2015-09-16 15:16:17.608] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:16:17.608] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:16:17.608] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:16:17.608] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::294a46c0e2fb237dcad0>
+I [2015-09-16 15:16:17.612] [[32mDispatcher[0m] Event init Finished in 0.002879893 seconds
+I [2015-09-16 15:16:20.926] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:16:20.926] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:16:20.926] [[32mDispatcher[0m] [36mData:[0m {"id"=>"1"}
+I [2015-09-16 15:16:20.926] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::294a46c0e2fb237dcad0>
+I [2015-09-16 15:16:20.929] [[32mDispatcher[0m] Event vote Finished in 0.002943397 seconds
+I [2015-09-16 15:18:28.614] [[32mConnectionManager[0m] Connection closed: #<Connection::2bf2d82b73a1efb63250>
+I [2015-09-16 15:18:30.967] [[32mConnectionManager[0m] Connection closed: #<Connection::294a46c0e2fb237dcad0>
+I [2015-09-16 15:18:31.899] [[32mConnectionManager[0m] Connection opened: #<Connection::fb02ddf79f4617a64fa3>
+I [2015-09-16 15:18:32.665] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:18:32.665] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:18:32.665] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:18:32.665] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fb02ddf79f4617a64fa3>
+I [2015-09-16 15:18:32.668] [[32mDispatcher[0m] Event init Finished in 0.0028008 seconds
+I [2015-09-16 15:18:34.971] [[32mConnectionManager[0m] Connection opened: #<Connection::eb9d2bba51492a2c5f49>
+I [2015-09-16 15:18:35.123] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:18:35.123] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:18:35.123] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:18:35.123] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::eb9d2bba51492a2c5f49>
+I [2015-09-16 15:18:35.127] [[32mDispatcher[0m] Event init Finished in 0.002903377 seconds
+I [2015-09-16 15:18:49.993] [[32mConnectionManager[0m] Connection closed: #<Connection::fb02ddf79f4617a64fa3>
+I [2015-09-16 15:18:50.704] [[32mConnectionManager[0m] Connection closed: #<Connection::eb9d2bba51492a2c5f49>
+I [2015-09-16 15:18:54.518] [[32mConnectionManager[0m] Connection opened: #<Connection::d5c4a125010121fa9fbe>
+I [2015-09-16 15:18:54.588] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:18:54.589] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:18:54.589] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:18:54.589] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::d5c4a125010121fa9fbe>
+I [2015-09-16 15:18:54.592] [[32mDispatcher[0m] Event init Finished in 0.003078985 seconds
+I [2015-09-16 15:18:55.304] [[32mConnectionManager[0m] Connection opened: #<Connection::b7093d9e56bc0e53fc9d>
+I [2015-09-16 15:18:55.494] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:18:55.495] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:18:55.495] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:18:55.495] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b7093d9e56bc0e53fc9d>
+I [2015-09-16 15:18:55.498] [[32mDispatcher[0m] Event init Finished in 0.003133129 seconds
+I [2015-09-16 15:19:02.474] [[32mConnectionManager[0m] Connection closed: #<Connection::d5c4a125010121fa9fbe>
+I [2015-09-16 15:19:04.752] [[32mConnectionManager[0m] Connection opened: #<Connection::ae937676af73826c43af>
+I [2015-09-16 15:19:04.826] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:19:04.826] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:19:04.826] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:19:04.826] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ae937676af73826c43af>
+I [2015-09-16 15:19:04.832] [[32mDispatcher[0m] Event init Finished in 0.005571314 seconds
+I [2015-09-16 15:21:24.324] [[32mConnectionManager[0m] Connection closed: #<Connection::ae937676af73826c43af>
+I [2015-09-16 15:21:26.352] [[32mConnectionManager[0m] Connection opened: #<Connection::fe0e0e1775012c774ac3>
+I [2015-09-16 15:21:26.372] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:21:26.372] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:21:26.372] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:21:26.372] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fe0e0e1775012c774ac3>
+I [2015-09-16 15:21:26.376] [[32mDispatcher[0m] Event init Finished in 0.002525413 seconds
+I [2015-09-16 15:21:27.362] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:21:27.362] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:21:27.363] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:21:27.363] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fe0e0e1775012c774ac3>
+I [2015-09-16 15:21:27.366] [[32mDispatcher[0m] Event vote Finished in 0.002846461 seconds
+I [2015-09-16 15:21:29.878] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 15:21:29.879] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 15:21:29.879] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 15:21:29.879] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b7093d9e56bc0e53fc9d>
+I [2015-09-16 15:21:29.882] [[32mDispatcher[0m] Event end Finished in 0.003229009 seconds
+I [2015-09-16 15:21:36.421] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:21:36.422] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:21:36.422] [[32mDispatcher[0m] [36mData:[0m {"options"=>["x", "y"]}
+I [2015-09-16 15:21:36.422] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b7093d9e56bc0e53fc9d>
+I [2015-09-16 15:21:36.425] [[32mDispatcher[0m] Event start Finished in 0.002565036 seconds
+I [2015-09-16 15:21:42.234] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:21:42.234] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:21:42.234] [[32mDispatcher[0m] [36mData:[0m {"id"=>"1"}
+I [2015-09-16 15:21:42.234] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fe0e0e1775012c774ac3>
+I [2015-09-16 15:21:42.237] [[32mDispatcher[0m] Event vote Finished in 0.002925541 seconds
+I [2015-09-16 15:22:30.598] [[32mConnectionManager[0m] Connection closed: #<Connection::fe0e0e1775012c774ac3>
+I [2015-09-16 15:22:32.724] [[32mConnectionManager[0m] Connection opened: #<Connection::52039fdcc66a4830565a>
+I [2015-09-16 15:22:32.812] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:22:32.812] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:22:32.812] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:22:32.812] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::52039fdcc66a4830565a>
+I [2015-09-16 15:22:32.816] [[32mDispatcher[0m] Event init Finished in 0.003060049 seconds
+I [2015-09-16 15:22:35.953] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:22:35.953] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:22:35.953] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:22:35.953] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::52039fdcc66a4830565a>
+I [2015-09-16 15:22:35.956] [[32mDispatcher[0m] Event vote Finished in 0.002694361 seconds
+I [2015-09-16 15:22:38.667] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 15:22:38.668] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 15:22:38.668] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 15:22:38.668] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b7093d9e56bc0e53fc9d>
+I [2015-09-16 15:22:38.672] [[32mDispatcher[0m] Event end Finished in 0.003585182 seconds
+I [2015-09-16 15:22:45.500] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:22:45.500] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:22:45.500] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 15:22:45.500] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b7093d9e56bc0e53fc9d>
+I [2015-09-16 15:22:45.504] [[32mDispatcher[0m] Event start Finished in 0.003135985 seconds
+I [2015-09-16 15:22:48.372] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:22:48.374] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:22:48.375] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:22:48.376] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::52039fdcc66a4830565a>
+I [2015-09-16 15:22:48.404] [[32mDispatcher[0m] Event vote Finished in 0.002647417 seconds
+I [2015-09-16 15:23:45.500] [[32mConnectionManager[0m] Connection closed: #<Connection::b7093d9e56bc0e53fc9d>
+I [2015-09-16 15:23:48.263] [[32mConnectionManager[0m] Connection opened: #<Connection::5a4a60c40612db2bb94a>
+I [2015-09-16 15:23:49.541] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:23:49.543] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:23:49.544] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:23:49.545] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5a4a60c40612db2bb94a>
+I [2015-09-16 15:23:49.581] [[32mDispatcher[0m] Event init Finished in 0.003387085 seconds
+I [2015-09-16 15:24:13.825] [[32mConnectionManager[0m] Connection closed: #<Connection::5a4a60c40612db2bb94a>
+I [2015-09-16 15:24:17.364] [[32mConnectionManager[0m] Connection opened: #<Connection::e16a4104f5ffc50227ee>
+I [2015-09-16 15:24:17.963] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:24:17.963] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:24:17.963] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:24:17.963] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e16a4104f5ffc50227ee>
+I [2015-09-16 15:24:17.966] [[32mDispatcher[0m] Event init Finished in 0.003011977 seconds
+I [2015-09-16 15:24:25.141] [[32mConnectionManager[0m] Connection closed: #<Connection::52039fdcc66a4830565a>
+I [2015-09-16 15:24:28.837] [[32mConnectionManager[0m] Connection opened: #<Connection::866c0bfac35773d5474f>
+I [2015-09-16 15:24:28.948] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:24:28.948] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:24:28.949] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:24:28.949] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::866c0bfac35773d5474f>
+I [2015-09-16 15:24:28.952] [[32mDispatcher[0m] Event init Finished in 0.002984461 seconds
+I [2015-09-16 15:24:29.908] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:24:29.908] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:24:29.908] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:24:29.908] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::866c0bfac35773d5474f>
+I [2015-09-16 15:24:29.911] [[32mDispatcher[0m] Event vote Finished in 0.002879917 seconds
+I [2015-09-16 15:24:55.642] [[32mConnectionManager[0m] Connection closed: #<Connection::e16a4104f5ffc50227ee>
+I [2015-09-16 15:24:59.322] [[32mConnectionManager[0m] Connection opened: #<Connection::000456a84fc742791f44>
+I [2015-09-16 15:24:59.990] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:24:59.990] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:24:59.990] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:24:59.990] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::000456a84fc742791f44>
+I [2015-09-16 15:24:59.994] [[32mDispatcher[0m] Event init Finished in 0.002949121 seconds
+I [2015-09-16 15:25:08.347] [[32mConnectionManager[0m] Connection closed: #<Connection::000456a84fc742791f44>
+I [2015-09-16 15:25:11.949] [[32mConnectionManager[0m] Connection opened: #<Connection::4322087b1bf3219752cd>
+I [2015-09-16 15:25:12.721] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:25:12.721] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:25:12.721] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:25:12.721] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4322087b1bf3219752cd>
+I [2015-09-16 15:25:12.727] [[32mDispatcher[0m] Event init Finished in 0.005698742 seconds
+I [2015-09-16 15:25:20.225] [[32mConnectionManager[0m] Connection closed: #<Connection::866c0bfac35773d5474f>
+I [2015-09-16 15:25:22.581] [[32mConnectionManager[0m] Connection opened: #<Connection::4784967fc0717d8fddc0>
+I [2015-09-16 15:25:22.713] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:25:22.714] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:25:22.714] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:25:22.714] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4784967fc0717d8fddc0>
+I [2015-09-16 15:25:22.717] [[32mDispatcher[0m] Event init Finished in 0.002951473 seconds
+I [2015-09-16 15:25:23.734] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:25:23.734] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:25:23.734] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:25:23.734] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4784967fc0717d8fddc0>
+I [2015-09-16 15:25:23.737] [[32mDispatcher[0m] Event vote Finished in 0.002962441 seconds
+I [2015-09-16 15:26:17.286] [[32mConnectionManager[0m] Connection closed: #<Connection::4322087b1bf3219752cd>
+I [2015-09-16 15:26:19.948] [[32mConnectionManager[0m] Connection opened: #<Connection::11eea707fd45fda71d01>
+I [2015-09-16 15:26:20.622] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:26:20.623] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:26:20.623] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:26:20.623] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::11eea707fd45fda71d01>
+I [2015-09-16 15:26:20.626] [[32mDispatcher[0m] Event init Finished in 0.002451781 seconds
+I [2015-09-16 15:26:42.152] [[32mConnectionManager[0m] Connection closed: #<Connection::11eea707fd45fda71d01>
+I [2015-09-16 15:26:45.455] [[32mConnectionManager[0m] Connection opened: #<Connection::c352fea30c6edd361aea>
+I [2015-09-16 15:26:45.687] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:26:45.687] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:26:45.687] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:26:45.687] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c352fea30c6edd361aea>
+I [2015-09-16 15:26:45.690] [[32mDispatcher[0m] Event init Finished in 0.002958385 seconds
+I [2015-09-16 15:27:20.753] [[32mConnectionManager[0m] Connection closed: #<Connection::c352fea30c6edd361aea>
+I [2015-09-16 15:27:22.949] [[32mConnectionManager[0m] Connection opened: #<Connection::37ae15eb4ab17148c75b>
+I [2015-09-16 15:27:23.665] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:27:23.666] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:27:23.666] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:27:23.666] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::37ae15eb4ab17148c75b>
+I [2015-09-16 15:27:23.669] [[32mDispatcher[0m] Event init Finished in 0.002485369 seconds
+I [2015-09-16 15:27:32.129] [[32mConnectionManager[0m] Connection closed: #<Connection::4784967fc0717d8fddc0>
+I [2015-09-16 15:27:34.413] [[32mConnectionManager[0m] Connection opened: #<Connection::708df3de6929c4729f60>
+I [2015-09-16 15:27:34.531] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:27:34.531] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:27:34.531] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:27:34.531] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::708df3de6929c4729f60>
+I [2015-09-16 15:27:34.534] [[32mDispatcher[0m] Event init Finished in 0.002497369 seconds
+I [2015-09-16 15:27:37.651] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:27:37.653] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:27:37.654] [[32mDispatcher[0m] [36mData:[0m {"id"=>"1"}
+I [2015-09-16 15:27:37.656] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::708df3de6929c4729f60>
+I [2015-09-16 15:27:37.687] [[32mDispatcher[0m] Event vote Finished in 0.002911141 seconds
+I [2015-09-16 15:27:40.229] [[32mConnectionManager[0m] Connection closed: #<Connection::708df3de6929c4729f60>
+I [2015-09-16 15:27:42.755] [[32mConnectionManager[0m] Connection opened: #<Connection::bfe1a2b98ad31f0c4f9a>
+I [2015-09-16 15:27:42.805] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:27:42.806] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:27:42.806] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:27:42.806] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::bfe1a2b98ad31f0c4f9a>
+I [2015-09-16 15:27:42.808] [[32mDispatcher[0m] Event init Finished in 0.002384736 seconds
+I [2015-09-16 15:27:45.416] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:27:45.416] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:27:45.416] [[32mDispatcher[0m] [36mData:[0m {"id"=>"1"}
+I [2015-09-16 15:27:45.416] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::bfe1a2b98ad31f0c4f9a>
+I [2015-09-16 15:27:45.419] [[32mDispatcher[0m] Event vote Finished in 0.002559817 seconds
+I [2015-09-16 15:37:47.802] [[32mConnectionManager[0m] Connection closed: #<Connection::bfe1a2b98ad31f0c4f9a>
+I [2015-09-16 15:37:50.119] [[32mConnectionManager[0m] Connection opened: #<Connection::a23289398b5bbeb0c893>
+I [2015-09-16 15:37:50.151] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:37:50.151] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:37:50.152] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:37:50.152] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::a23289398b5bbeb0c893>
+I [2015-09-16 15:37:50.154] [[32mDispatcher[0m] Event init Finished in 0.001964401 seconds
+I [2015-09-16 15:37:57.193] [[32mConnectionManager[0m] Connection closed: #<Connection::37ae15eb4ab17148c75b>
+I [2015-09-16 15:37:59.483] [[32mConnectionManager[0m] Connection opened: #<Connection::5b38647671d59cace210>
+I [2015-09-16 15:37:59.670] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:37:59.670] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:37:59.670] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:37:59.671] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5b38647671d59cace210>
+I [2015-09-16 15:37:59.673] [[32mDispatcher[0m] Event init Finished in 0.002384004 seconds
+I [2015-09-16 15:38:03.911] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:38:03.911] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:38:03.911] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 15:38:03.911] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5b38647671d59cace210>
+I [2015-09-16 15:38:03.915] [[32mDispatcher[0m] Event start Finished in 0.003115453 seconds
+I [2015-09-16 15:38:05.892] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:38:05.892] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:38:05.892] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:38:05.892] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::a23289398b5bbeb0c893>
+I [2015-09-16 15:38:05.895] [[32mDispatcher[0m] Event vote Finished in 0.002785081 seconds
+I [2015-09-16 15:38:07.324] [[32mConnectionManager[0m] Connection closed: #<Connection::a23289398b5bbeb0c893>
+I [2015-09-16 15:38:09.822] [[32mConnectionManager[0m] Connection opened: #<Connection::fcc5b8105b473e8f17b2>
+I [2015-09-16 15:38:09.895] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:38:09.896] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:38:09.896] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:38:09.896] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fcc5b8105b473e8f17b2>
+I [2015-09-16 15:38:09.901] [[32mDispatcher[0m] Event init Finished in 0.004691725 seconds
+I [2015-09-16 15:38:18.271] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 15:38:18.272] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 15:38:18.272] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 15:38:18.272] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5b38647671d59cace210>
+I [2015-09-16 15:38:18.276] [[32mDispatcher[0m] Event end Finished in 0.003461725 seconds
+I [2015-09-16 15:38:29.933] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:38:29.935] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:38:29.937] [[32mDispatcher[0m] [36mData:[0m {"options"=>["x", "y"]}
+I [2015-09-16 15:38:29.937] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5b38647671d59cace210>
+I [2015-09-16 15:38:29.973] [[32mDispatcher[0m] Event start Finished in 0.003321121 seconds
+I [2015-09-16 15:38:31.948] [[32mDispatcher[0m] Started Event: vote
+I [2015-09-16 15:38:31.948] [[32mDispatcher[0m] [36mName:[0m vote
+I [2015-09-16 15:38:31.948] [[32mDispatcher[0m] [36mData:[0m {"id"=>"0"}
+I [2015-09-16 15:38:31.948] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fcc5b8105b473e8f17b2>
+I [2015-09-16 15:38:31.951] [[32mDispatcher[0m] Event vote Finished in 0.002606737 seconds
+I [2015-09-16 15:38:58.474] [[32mConnectionManager[0m] Connection closed: #<Connection::fcc5b8105b473e8f17b2>
+I [2015-09-16 15:39:01.220] [[32mConnectionManager[0m] Connection opened: #<Connection::4e4463371eeec73e85be>
+I [2015-09-16 15:39:01.275] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:39:01.275] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:39:01.275] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 15:39:01.275] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4e4463371eeec73e85be>
+I [2015-09-16 15:39:01.279] [[32mDispatcher[0m] Event init Finished in 0.004066885 seconds
+I [2015-09-16 15:39:03.133] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 15:39:03.134] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 15:39:03.134] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 15:39:03.134] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5b38647671d59cace210>
+I [2015-09-16 15:39:03.138] [[32mDispatcher[0m] Event end Finished in 0.00403781 seconds
+I [2015-09-16 15:39:09.771] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 15:39:09.771] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 15:39:09.772] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "bg"]}
+I [2015-09-16 15:39:09.772] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5b38647671d59cace210>
+I [2015-09-16 15:39:09.776] [[32mDispatcher[0m] Event start Finished in 0.004451942 seconds
+I [2015-09-16 15:39:52.587] [[32mConnectionManager[0m] Connection closed: #<Connection::5b38647671d59cace210>
+I [2015-09-16 15:39:54.135] [[32mConnectionManager[0m] Connection opened: #<Connection::a62190f0b916033d9a79>
+I [2015-09-16 15:39:54.228] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:39:54.228] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:39:54.228] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:39:54.228] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::a62190f0b916033d9a79>
+I [2015-09-16 15:39:54.231] [[32mDispatcher[0m] Event init Finished in 0.002569717 seconds
+I [2015-09-16 15:40:43.401] [[32mConnectionManager[0m] Connection closed: #<Connection::a62190f0b916033d9a79>
+I [2015-09-16 15:40:45.338] [[32mConnectionManager[0m] Connection opened: #<Connection::560f9026d14bb8d238ad>
+I [2015-09-16 15:40:45.425] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:40:45.425] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:40:45.425] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:40:45.425] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::560f9026d14bb8d238ad>
+I [2015-09-16 15:40:45.427] [[32mDispatcher[0m] Event init Finished in 0.002022265 seconds
+I [2015-09-16 15:40:51.391] [[32mConnectionManager[0m] Connection closed: #<Connection::560f9026d14bb8d238ad>
+I [2015-09-16 15:40:53.172] [[32mConnectionManager[0m] Connection opened: #<Connection::89138a5a3f741bb947b3>
+I [2015-09-16 15:40:53.702] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:40:53.702] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:40:53.702] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:40:53.703] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::89138a5a3f741bb947b3>
+I [2015-09-16 15:40:53.705] [[32mDispatcher[0m] Event init Finished in 0.002528989 seconds
+I [2015-09-16 15:40:55.902] [[32mConnectionManager[0m] Connection closed: #<Connection::89138a5a3f741bb947b3>
+I [2015-09-16 15:40:57.653] [[32mConnectionManager[0m] Connection opened: #<Connection::6d4a269a1af207870a28>
+I [2015-09-16 15:40:58.171] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:40:58.171] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:40:58.171] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:40:58.171] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6d4a269a1af207870a28>
+I [2015-09-16 15:40:58.174] [[32mDispatcher[0m] Event init Finished in 0.002673013 seconds
+I [2015-09-16 15:41:15.961] [[32mConnectionManager[0m] Connection closed: #<Connection::6d4a269a1af207870a28>
+I [2015-09-16 15:41:17.815] [[32mConnectionManager[0m] Connection opened: #<Connection::2de549cefef6bf5f7d53>
+I [2015-09-16 15:41:18.434] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:41:18.435] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:41:18.435] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:41:18.435] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::2de549cefef6bf5f7d53>
+I [2015-09-16 15:41:18.437] [[32mDispatcher[0m] Event init Finished in 0.002374896 seconds
+I [2015-09-16 15:42:02.685] [[32mConnectionManager[0m] Connection closed: #<Connection::2de549cefef6bf5f7d53>
+I [2015-09-16 15:42:03.945] [[32mConnectionManager[0m] Connection opened: #<Connection::f7700cc81f2244269afc>
+I [2015-09-16 15:42:04.366] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:42:04.366] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:42:04.366] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:42:04.366] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f7700cc81f2244269afc>
+I [2015-09-16 15:42:04.372] [[32mDispatcher[0m] Event init Finished in 0.005101022 seconds
+I [2015-09-16 15:42:06.306] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 15:42:06.306] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 15:42:06.306] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 15:42:06.307] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f7700cc81f2244269afc>
+I [2015-09-16 15:42:06.309] [[32mDispatcher[0m] Event end Finished in 0.002434597 seconds
+I [2015-09-16 15:42:07.385] [[32mConnectionManager[0m] Connection closed: #<Connection::f7700cc81f2244269afc>
+I [2015-09-16 15:42:09.330] [[32mConnectionManager[0m] Connection opened: #<Connection::4973f17190a89a7a34fa>
+I [2015-09-16 15:42:09.804] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:42:09.805] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:42:09.805] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:42:09.805] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4973f17190a89a7a34fa>
+I [2015-09-16 15:42:09.807] [[32mDispatcher[0m] Event init Finished in 0.001689001 seconds
+I [2015-09-16 15:42:41.187] [[32mConnectionManager[0m] Connection closed: #<Connection::4973f17190a89a7a34fa>
+I [2015-09-16 15:42:43.132] [[32mConnectionManager[0m] Connection opened: #<Connection::71280551f73684b1275d>
+I [2015-09-16 15:42:43.744] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:42:43.744] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:42:43.744] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:42:43.744] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::71280551f73684b1275d>
+I [2015-09-16 15:42:43.746] [[32mDispatcher[0m] Event init Finished in 0.001908913 seconds
+I [2015-09-16 15:43:09.448] [[32mConnectionManager[0m] Connection closed: #<Connection::71280551f73684b1275d>
+I [2015-09-16 15:43:12.303] [[32mConnectionManager[0m] Connection opened: #<Connection::8bcc458c3fca80f74400>
+I [2015-09-16 15:43:13.174] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:43:13.174] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:43:13.174] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:43:13.174] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8bcc458c3fca80f74400>
+I [2015-09-16 15:43:13.177] [[32mDispatcher[0m] Event init Finished in 0.002545777 seconds
+I [2015-09-16 15:43:14.934] [[32mConnectionManager[0m] Connection closed: #<Connection::8bcc458c3fca80f74400>
+I [2015-09-16 15:43:17.957] [[32mConnectionManager[0m] Connection opened: #<Connection::168fc5ca0645d185b696>
+I [2015-09-16 15:43:18.378] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:43:18.378] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:43:18.378] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:43:18.378] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::168fc5ca0645d185b696>
+I [2015-09-16 15:43:18.380] [[32mDispatcher[0m] Event init Finished in 0.001753849 seconds
+I [2015-09-16 15:43:40.869] [[32mConnectionManager[0m] Connection closed: #<Connection::168fc5ca0645d185b696>
+I [2015-09-16 15:43:43.538] [[32mConnectionManager[0m] Connection opened: #<Connection::e8ff39b2b76aa02d6674>
+I [2015-09-16 15:43:43.947] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:43:43.947] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:43:43.947] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:43:43.948] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e8ff39b2b76aa02d6674>
+I [2015-09-16 15:43:43.949] [[32mDispatcher[0m] Event init Finished in 0.001691797 seconds
+I [2015-09-16 15:43:45.399] [[32mConnectionManager[0m] Connection closed: #<Connection::e8ff39b2b76aa02d6674>
+I [2015-09-16 15:43:47.201] [[32mConnectionManager[0m] Connection opened: #<Connection::1fdee8a24f11e8701753>
+I [2015-09-16 15:43:47.749] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:43:47.749] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:43:47.749] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:43:47.749] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1fdee8a24f11e8701753>
+I [2015-09-16 15:43:47.752] [[32mDispatcher[0m] Event init Finished in 0.0022623 seconds
+I [2015-09-16 15:43:55.244] [[32mConnectionManager[0m] Connection closed: #<Connection::1fdee8a24f11e8701753>
+I [2015-09-16 15:43:57.252] [[32mConnectionManager[0m] Connection opened: #<Connection::3ec3e66deb66b589ac4e>
+I [2015-09-16 15:43:57.515] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 15:43:57.515] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 15:43:57.515] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 15:43:57.515] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3ec3e66deb66b589ac4e>
+I [2015-09-16 15:43:57.517] [[32mDispatcher[0m] Event init Finished in 0.001526869 seconds
+I [2015-09-16 17:13:36.678] [[32mConnectionManager[0m] Connection closed: #<Connection::3ec3e66deb66b589ac4e>
+I [2015-09-16 17:13:39.485] [[32mConnectionManager[0m] Connection opened: #<Connection::f87e210c9de30b038c2e>
+I [2015-09-16 17:13:39.574] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:13:39.574] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:13:39.574] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:13:39.574] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f87e210c9de30b038c2e>
+I [2015-09-16 17:13:39.576] [[32mDispatcher[0m] Event init Finished in 0.001960704 seconds
+I [2015-09-16 17:13:45.388] [[32mConnectionManager[0m] Connection closed: #<Connection::f87e210c9de30b038c2e>
+I [2015-09-16 17:13:48.108] [[32mConnectionManager[0m] Connection opened: #<Connection::dab0a359b27c6eb76845>
+I [2015-09-16 17:13:48.143] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:13:48.143] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:13:48.143] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:13:48.144] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dab0a359b27c6eb76845>
+I [2015-09-16 17:13:48.145] [[32mDispatcher[0m] Event init Finished in 0.001557637 seconds
+I [2015-09-16 17:15:00.783] [[32mConnectionManager[0m] Connection closed: #<Connection::dab0a359b27c6eb76845>
+I [2015-09-16 17:15:03.505] [[32mConnectionManager[0m] Connection opened: #<Connection::713a874e22aef41dcbc7>
+I [2015-09-16 17:15:04.122] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:15:04.122] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:15:04.122] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:15:04.122] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::713a874e22aef41dcbc7>
+I [2015-09-16 17:15:04.124] [[32mDispatcher[0m] Event init Finished in 0.001871304 seconds
+I [2015-09-16 17:16:24.523] [[32mConnectionManager[0m] Connection closed: #<Connection::713a874e22aef41dcbc7>
+I [2015-09-16 17:16:26.820] [[32mConnectionManager[0m] Connection opened: #<Connection::889b7844156e55a2ce13>
+I [2015-09-16 17:16:27.332] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:16:27.332] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:16:27.333] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:16:27.333] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::889b7844156e55a2ce13>
+I [2015-09-16 17:16:27.335] [[32mDispatcher[0m] Event init Finished in 0.001998625 seconds
+I [2015-09-16 17:16:55.346] [[32mConnectionManager[0m] Connection closed: #<Connection::889b7844156e55a2ce13>
+I [2015-09-16 17:16:58.143] [[32mConnectionManager[0m] Connection opened: #<Connection::3b30af35bcc199e8b301>
+I [2015-09-16 17:16:58.232] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:16:58.232] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:16:58.232] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:16:58.232] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3b30af35bcc199e8b301>
+I [2015-09-16 17:16:58.234] [[32mDispatcher[0m] Event init Finished in 0.001552164 seconds
+I [2015-09-16 17:17:05.245] [[32mConnectionManager[0m] Connection closed: #<Connection::ef77297517bfad65422f>
+I [2015-09-16 17:17:05.247] [[32mConnectionManager[0m] Connection closed: #<Connection::4e4463371eeec73e85be>
+I [2015-09-16 17:17:05.248] [[32mConnectionManager[0m] Connection closed: #<Connection::3b30af35bcc199e8b301>
+I [2015-09-16 17:17:29.760] [[32mConnectionManager[0m] Connection opened: #<Connection::2ca233f008e9cbb0aa51>
+I [2015-09-16 17:17:29.898] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:17:29.898] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:17:29.898] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:17:29.898] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::2ca233f008e9cbb0aa51>
+I [2015-09-16 17:17:29.902] [[32mDispatcher[0m] Event init Finished in 0.003594829 seconds
+I [2015-09-16 17:17:30.374] [[32mConnectionManager[0m] Connection opened: #<Connection::0058f45cc481394b409c>
+I [2015-09-16 17:17:30.514] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:17:30.514] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:17:30.514] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 17:17:30.514] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0058f45cc481394b409c>
+I [2015-09-16 17:17:30.518] [[32mDispatcher[0m] Event init Finished in 0.003338929 seconds
+I [2015-09-16 17:17:47.586] [[32mConnectionManager[0m] Connection closed: #<Connection::2ca233f008e9cbb0aa51>
+I [2015-09-16 17:17:50.631] [[32mConnectionManager[0m] Connection opened: #<Connection::79e794d16379240bb189>
+I [2015-09-16 17:17:50.733] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:17:50.733] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:17:50.733] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:17:50.733] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::79e794d16379240bb189>
+I [2015-09-16 17:17:50.735] [[32mDispatcher[0m] Event init Finished in 0.001764685 seconds
+I [2015-09-16 17:18:02.795] [[32mConnectionManager[0m] Connection closed: #<Connection::79e794d16379240bb189>
+I [2015-09-16 17:18:04.991] [[32mConnectionManager[0m] Connection opened: #<Connection::8a26cdda9718afd7014c>
+I [2015-09-16 17:18:05.521] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:18:05.521] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:18:05.522] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:18:05.522] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8a26cdda9718afd7014c>
+I [2015-09-16 17:18:05.524] [[32mDispatcher[0m] Event init Finished in 0.001631689 seconds
+I [2015-09-16 17:18:35.905] [[32mConnectionManager[0m] Connection closed: #<Connection::8a26cdda9718afd7014c>
+I [2015-09-16 17:18:38.768] [[32mConnectionManager[0m] Connection opened: #<Connection::044d75042010f1f6ae10>
+I [2015-09-16 17:18:39.295] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:18:39.295] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:18:39.295] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:18:39.296] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::044d75042010f1f6ae10>
+I [2015-09-16 17:18:39.298] [[32mDispatcher[0m] Event init Finished in 0.001922041 seconds
+I [2015-09-16 17:18:51.396] [[32mConnectionManager[0m] Connection closed: #<Connection::044d75042010f1f6ae10>
+I [2015-09-16 17:18:54.507] [[32mConnectionManager[0m] Connection opened: #<Connection::7e8f415b7a7a24b55b92>
+I [2015-09-16 17:18:55.637] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:18:55.639] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:18:55.641] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:18:55.642] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::7e8f415b7a7a24b55b92>
+I [2015-09-16 17:18:55.663] [[32mDispatcher[0m] Event init Finished in 0.001870597 seconds
+I [2015-09-16 17:19:00.533] [[32mConnectionManager[0m] Connection closed: #<Connection::7e8f415b7a7a24b55b92>
+I [2015-09-16 17:19:03.428] [[32mConnectionManager[0m] Connection opened: #<Connection::366991d9607f739fd84c>
+I [2015-09-16 17:19:03.954] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:19:03.954] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:19:03.954] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:19:03.954] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::366991d9607f739fd84c>
+I [2015-09-16 17:19:03.956] [[32mDispatcher[0m] Event init Finished in 0.00176088 seconds
+I [2015-09-16 17:19:24.254] [[32mConnectionManager[0m] Connection opened: #<Connection::9254092fe2046ad914cc>
+I [2015-09-16 17:19:24.370] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:19:24.370] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:19:24.370] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:19:24.370] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::9254092fe2046ad914cc>
+I [2015-09-16 17:19:24.372] [[32mDispatcher[0m] Event init Finished in 0.001990872 seconds
+I [2015-09-16 17:21:22.483] [[32mConnectionManager[0m] Connection closed: #<Connection::366991d9607f739fd84c>
+I [2015-09-16 17:21:25.313] [[32mConnectionManager[0m] Connection opened: #<Connection::0132bbd65039b469e0aa>
+I [2015-09-16 17:21:25.890] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:21:25.890] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:21:25.890] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:21:25.890] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0132bbd65039b469e0aa>
+I [2015-09-16 17:21:25.902] [[32mDispatcher[0m] Event init Finished in 0.011748808 seconds
+I [2015-09-16 17:22:43.831] [[32mConnectionManager[0m] Connection closed: #<Connection::0132bbd65039b469e0aa>
+I [2015-09-16 17:22:46.885] [[32mConnectionManager[0m] Connection opened: #<Connection::bb2b058aa18d2be183e7>
+I [2015-09-16 17:22:47.412] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:22:47.412] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:22:47.412] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:22:47.412] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::bb2b058aa18d2be183e7>
+I [2015-09-16 17:22:47.420] [[32mDispatcher[0m] Event init Finished in 0.007052018 seconds
+I [2015-09-16 17:23:09.167] [[32mConnectionManager[0m] Connection closed: #<Connection::bb2b058aa18d2be183e7>
+I [2015-09-16 17:23:12.461] [[32mConnectionManager[0m] Connection opened: #<Connection::5ed8236b9441175df864>
+I [2015-09-16 17:23:13.111] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:23:13.112] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:23:13.112] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:23:13.112] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5ed8236b9441175df864>
+I [2015-09-16 17:23:13.122] [[32mDispatcher[0m] Event init Finished in 0.009520719 seconds
+I [2015-09-16 17:24:57.572] [[32mConnectionManager[0m] Connection closed: #<Connection::5ed8236b9441175df864>
+I [2015-09-16 17:25:00.302] [[32mConnectionManager[0m] Connection opened: #<Connection::59847166ad26e1e65701>
+I [2015-09-16 17:25:00.816] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:25:00.816] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:25:00.816] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:25:00.816] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::59847166ad26e1e65701>
+I [2015-09-16 17:25:00.826] [[32mDispatcher[0m] Event init Finished in 0.009488643 seconds
+I [2015-09-16 17:25:55.897] [[32mConnectionManager[0m] Connection closed: #<Connection::59847166ad26e1e65701>
+I [2015-09-16 17:25:58.628] [[32mConnectionManager[0m] Connection opened: #<Connection::de8ae5032d8c27198af9>
+I [2015-09-16 17:25:59.194] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:25:59.194] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:25:59.194] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:25:59.194] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::de8ae5032d8c27198af9>
+I [2015-09-16 17:25:59.197] [[32mDispatcher[0m] Event init Finished in 0.002749069 seconds
+I [2015-09-16 17:26:25.752] [[32mConnectionManager[0m] Connection closed: #<Connection::de8ae5032d8c27198af9>
+I [2015-09-16 17:26:29.829] [[32mConnectionManager[0m] Connection opened: #<Connection::8661a5c56347772d8596>
+I [2015-09-16 17:26:30.252] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:26:30.252] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:26:30.252] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:26:30.252] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8661a5c56347772d8596>
+I [2015-09-16 17:26:30.259] [[32mDispatcher[0m] Event init Finished in 0.006762926 seconds
+I [2015-09-16 17:27:12.953] [[32mConnectionManager[0m] Connection closed: #<Connection::8661a5c56347772d8596>
+I [2015-09-16 17:27:16.648] [[32mConnectionManager[0m] Connection opened: #<Connection::e0afe430387f0bfa29b9>
+I [2015-09-16 17:27:17.912] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:27:17.912] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:27:17.912] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:27:17.912] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e0afe430387f0bfa29b9>
+I [2015-09-16 17:27:17.914] [[32mDispatcher[0m] Event init Finished in 0.002186268 seconds
+I [2015-09-16 17:27:23.933] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 17:27:23.933] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 17:27:23.934] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 17:27:23.934] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e0afe430387f0bfa29b9>
+I [2015-09-16 17:27:23.937] [[32mDispatcher[0m] Event start Finished in 0.003110749 seconds
+I [2015-09-16 17:27:24.841] [[32mConnectionManager[0m] Connection closed: #<Connection::e0afe430387f0bfa29b9>
+I [2015-09-16 17:27:28.838] [[32mConnectionManager[0m] Connection opened: #<Connection::84853a1f5834017c8de0>
+I [2015-09-16 17:27:29.996] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:27:29.996] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:27:29.996] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:27:29.996] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::84853a1f5834017c8de0>
+I [2015-09-16 17:27:29.999] [[32mDispatcher[0m] Event init Finished in 0.002174053 seconds
+I [2015-09-16 17:27:44.798] [[32mConnectionManager[0m] Connection closed: #<Connection::84853a1f5834017c8de0>
+I [2015-09-16 17:27:49.368] [[32mConnectionManager[0m] Connection opened: #<Connection::c647f7f4fff33772609c>
+I [2015-09-16 17:27:50.902] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:27:50.902] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:27:50.903] [[32mDispatcher[0m] [36mData:[0m {"admin"=>true}
+I [2015-09-16 17:27:50.903] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c647f7f4fff33772609c>
+I [2015-09-16 17:27:50.905] [[32mDispatcher[0m] Event init Finished in 0.002207017 seconds
+I [2015-09-16 17:27:54.768] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 17:27:54.768] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 17:27:54.768] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 17:27:54.768] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c647f7f4fff33772609c>
+I [2015-09-16 17:27:54.771] [[32mDispatcher[0m] Event end Finished in 0.002495377 seconds
+I [2015-09-16 17:27:59.499] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 17:27:59.500] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 17:27:59.500] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 17:27:59.500] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c647f7f4fff33772609c>
+I [2015-09-16 17:27:59.502] [[32mDispatcher[0m] Event start Finished in 0.002187781 seconds
+I [2015-09-16 17:28:08.586] [[32mConnectionManager[0m] Connection closed: #<Connection::0058f45cc481394b409c>
+I [2015-09-16 17:28:10.750] [[32mConnectionManager[0m] Connection opened: #<Connection::553e75f831c7cc3e286c>
+I [2015-09-16 17:28:10.868] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:28:10.868] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:28:10.868] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 17:28:10.868] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::553e75f831c7cc3e286c>
+I [2015-09-16 17:28:10.871] [[32mDispatcher[0m] Event init Finished in 0.002194657 seconds
+I [2015-09-16 17:28:13.686] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 17:28:13.686] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 17:28:13.686] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 17:28:13.686] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c647f7f4fff33772609c>
+I [2015-09-16 17:28:13.690] [[32mDispatcher[0m] Event end Finished in 0.002882485 seconds
+I [2015-09-16 17:28:19.370] [[32mDispatcher[0m] Started Event: start
+I [2015-09-16 17:28:19.370] [[32mDispatcher[0m] [36mName:[0m start
+I [2015-09-16 17:28:19.370] [[32mDispatcher[0m] [36mData:[0m {"options"=>["a", "b"]}
+I [2015-09-16 17:28:19.370] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c647f7f4fff33772609c>
+I [2015-09-16 17:28:19.376] [[32mDispatcher[0m] Event start Finished in 0.004967666 seconds
+I [2015-09-16 17:28:32.295] [[32mDispatcher[0m] Started Event: end
+I [2015-09-16 17:28:32.295] [[32mDispatcher[0m] [36mName:[0m end
+I [2015-09-16 17:28:32.295] [[32mDispatcher[0m] [36mData:[0m {}
+I [2015-09-16 17:28:32.295] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c647f7f4fff33772609c>
+I [2015-09-16 17:28:32.298] [[32mDispatcher[0m] Event end Finished in 0.002869057 seconds
+I [2015-09-16 17:28:44.418] [[32mConnectionManager[0m] Connection closed: #<Connection::c647f7f4fff33772609c>
+I [2015-09-16 17:29:19.578] [[32mConnectionManager[0m] Connection closed: #<Connection::553e75f831c7cc3e286c>
+I [2015-09-16 17:29:21.927] [[32mConnectionManager[0m] Connection opened: #<Connection::33d9edc5692bf672881e>
+I [2015-09-16 17:29:22.266] [[32mDispatcher[0m] Started Event: init
+I [2015-09-16 17:29:22.268] [[32mDispatcher[0m] [36mName:[0m init
+I [2015-09-16 17:29:22.269] [[32mDispatcher[0m] [36mData:[0m {"admin"=>false}
+I [2015-09-16 17:29:22.270] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::33d9edc5692bf672881e>
+E [2015-09-16 17:29:22.290] [[31mDispatcher[0m] NoMethodError: undefined method `join' for nil:NilClass
+E [2015-09-16 17:29:22.292] [[31mDispatcher[0m] /home/adamlew/i-voter/app/controllers/vote_controller.rb:21:in `init'
+E [2015-09-16 17:29:22.293] [[31mDispatcher[0m] /var/lib/gems/2.2.0/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2015-09-16 17:29:22.294] [[31mDispatcher[0m] /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2015-09-16 17:29:22.296] [[31mDispatcher[0m] /var/lib/gems/2.2.0/gems/activesupport-4.1.8/lib/active_support/callbacks.rb:113:in `call'
+E [2015-09-16 17:29:22.297] [[31mDispatcher[0m] /var/lib/gems/2.2.0/gems/activesupport-4.1.8/lib/active_support/callbacks.rb:113:in `call'
+E [2015-09-16 17:29:22.298] [[31mDispatcher[0m] /var/lib/gems/2.2.0/gems/activesupport-4.1.8/lib/active_support/callbacks.rb:166:in `block in halting'
+E [2015-09-16 17:29:22.298] [[31mDispatcher[0m] /var/lib/gems/2.2.0/gems/activesupport-4.1.8/lib/active_support/callbacks.rb:86:in `call'
+E [2015-09-16 17:29:22.299] [[31mDispatcher[0m] /var/lib/gems/2.2.0/gems/activesupport-4.1.8/lib/active_support/callbacks.rb:86:in `run_callbacks'
+E [2015-09-16 17:29:22.300] [[31mDispatcher[0m] /var/lib/gems/2.2.0/gems/actionpack-4.1.8/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2015-09-16 17:29:22.301] [[31mDispatcher[0m] /var/lib/gems/2.2.0/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2015-09-16 17:29:22.302] [[31mDispatcher[0m] /var/lib/gems/2.2.0/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2015-09-16 17:29:22.303] [[31mDispatcher[0m] /var/lib/gems/2.2.0/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2015-09-16 17:29:22.304] [[31mDispatcher[0m] /var/lib/gems/2.2.0/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
