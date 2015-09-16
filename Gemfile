@@ -34,7 +34,7 @@ gem 'sass-rails', '>= 3.2'
 # gem 'debugger', group: [:development, :test]
 
 gem 'thin'
-gem 'faye-rails'
+gem 'websocket-rails'
 
 gem 'simple_form'
 

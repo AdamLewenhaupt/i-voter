@@ -18,14 +18,17 @@ login = (text) ->
             $("#login").addClass("hidden")
             $("#panel").removeClass("hidden")
 
+onInit = (data) ->
+    console.log data
+    setVote data.options
+    stats = data.stats
+
 
 handleMsg = (msg) ->
     parts = msg.split(":")
     type = parts[0]
     user = parts[1]
     content = parts[2]
-
-    console.log user, userCheck
 
     if user in userCheck
        return false 
@@ -47,13 +50,19 @@ handleMsg = (msg) ->
 
 
 
-setVote = (options) ->
+setVote = (options, stats) ->
+    $(".vote-init").addClass "hidden"
+    $(".vote-active").removeClass "hidden"
+    $("#new").addClass "hidden"
     $vOpts = $("#voting-options")
     $vOpts.html("")
 
     votes = 0
     userCheck = []
-    voteCounter = [1..options.length].map -> 0
+    if stats != null
+        voteCounter = stats
+    else
+        voteCounter = [1..options.length].map -> 0
 
     for opt,i in options
         $("<p class='opt-title-#{i}'>#{opt} - <span>0</span> röst(er)</p>").appendTo $vOpts
@@ -64,8 +73,11 @@ setVote = (options) ->
 
 $(document).ready () ->
 
-    client = new Faye.Client('/faye')
-    voteSub = client.subscribe '/vote', handleMsg
+    dispatcher = new WebSocketRails 'localhost:3000/websocket'
+    dispatcher.on_open = (data) ->
+        dispatcher.trigger 'init', { admin: true }
+
+    dispatcher.bind 'i', onInit
 
     $(document).keypress (e) ->
         if not loggedIn and e.which == 13 
@@ -102,15 +114,12 @@ $(document).ready () ->
         params = 
             options: window.options
 
-        client.publish '/vote', "start:#{window.options.join '|'}"
+        dispatcher.trigger 'start', { options: window.options } 
 
-        $(".vote-init").addClass "hidden"
-        $(".vote-active").removeClass "hidden"
-        $("#new").addClass "hidden"
 
     $("#end").click () ->
 
-        client.publish '/vote', "end:"
+        dispatcher.trigger 'end', {}
 
         $("#end").attr("disabled", true)
         $("#new").removeClass "hidden"

@@ -5,32 +5,24 @@ hasVoted = false
 updateVote = () ->
     $("#current-vote").html $("#vote option:selected").text()
 
+startFn = (data) ->
+    options = data.options.split '|'
+    $("#current-vote").html("--")
+    toggleHidden(["#inactive", "#display"])
+    $("#vote option").remove()
 
-handleMsg = (msg) ->
-    parts = msg.split(":")
-    type = parts[0]
-    content = parts[1]
+    for opt,i in options
+        $("<option value='#{i}'>#{opt}</option>").appendTo $("#vote")
 
-    switch type
-        when "count"
-            $("#voter-count span").html(content)
+    $("#vote").trigger('change')
 
-        when "start"
-            $("#current-vote").html("--")
-            toggleHidden(["#inactive", "#display"])
-            options = content.split("|")
-            $("#vote option").remove()
+endFn = (data) ->
+    toggleHidden(["#inactive", "#display"])
+    hasVoted = false
 
-            for opt,i in options
-                $("<option value='#{i}'>#{opt}</option>").appendTo $("#vote")
-
-            $("#vote").trigger('change')
-
-        when "end"
-            toggleHidden(["#inactive", "#display"])
-            hasVoted = false
-
-
+initFn = (data) ->
+    if data.options != undefined
+        startFn data
 
 debug = (msg) ->
     $("#debug").html(msg)
@@ -76,19 +68,18 @@ $(document).ready () ->
     else
         console.log "no pos :("
 
-    client = new Faye.Client('/faye')
-    client.on 'transport:down', () ->
-        isOnline = true
-        $("#ws-offline").removeClass("hidden")
-        $("#ws-online").addClass("hidden")
+    dispatcher = new WebSocketRails 'localhost:3000/websocket'
 
-    client.on 'transport:up', () ->
+    dispatcher.on_open =(data) ->
         isOnline = true
-        $("#ws-offline").addClass("hidden")
-        $("#ws-online").removeClass("hidden")
+        $("#ws-online").removeClass 'hidden'
+        $("#ws-offline").addClass 'hidden'
 
-    voteSub = client.subscribe '/vote', (msg) ->
-        handleMsg msg
+    dispatcher.trigger 'init', { admin: false }
+
+    dispatcher.bind 'start_vote', startFn
+    dispatcher.bind 'x', endFn
+    dispatcher.bind 'i', initFn
 
     updateVote()
 
@@ -99,8 +90,7 @@ $(document).ready () ->
         if isAutenticated
             if not hasVoted
                 $(this).addClass("btn-success")
-                console.log "vote:#{$("#user").html()}:#{$("#vote").val()}"
-                client.publish '/vote', "vote:#{$("#user").html()}:#{$("#vote").val()}"
+                dispatcher.trigger 'vote', { user: $("#user").html(), id: $("#vote").val() }
                 $(this).html("Tack för din röst")
                 hasVoted = true
             else

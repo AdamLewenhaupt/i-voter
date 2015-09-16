@@ -13,8 +13,8 @@
 		</div>
 	</div>
 	<div id="display" class="<%= 'hidden' if not $voting %>" >
-		<% opts = $voteOptions.each_with_index.map { |o,i| [o,i] } %>
-		<%= select_tag("vote", options_for_select(opts), :class => "form-control", :id => "vote") %>
+
+        <select id="vote" class="form-control"></select> 
 
 		<h2>Du röstar på:</h2>
 		<p id="current-vote">--</p>

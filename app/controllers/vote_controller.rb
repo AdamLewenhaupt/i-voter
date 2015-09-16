@@ -1,54 +1,45 @@
-class VoteController < FayeRails::Controller
+class VoteController < WebsocketRails::BaseController
 
-    channel '/vote' do
-        # monitor :subscribe do
-        # 	voters += 1
-        # 	VoteController.publish('/vote', "count:#{voters}")
-        # end
+    def initialize_session
+        controller_store[:user_check] = []
+        controller_store[:voting] = false
+        controller_store[:vote_options] = nil
+        controller_store[:vote_counter] = nil
+    end
 
-        # monitor :unsubscribe do
-        # 	voters -= 1
-        # 	VoteController.publish('/vote', "count:#{voters}")
-        # end
-
-        monitor :publish do 
-            msg = data.inspect
-            if msg != nil
-
-                parts = msg.delete('"').split ":"
-                if parts[0] == "vote"
-                    user = parts[1]
-                    if not $userChecker.include? user
-                        id = parts[2].to_i
-                        $userChecker.push user                   
-                        $voteCounter[$voteOptions[id]] += 1
-                    end
-
-                elsif parts[0] == "start"
-                    options = parts[1].split '|'
-                    $userChecker = []
-                    $voting = true
-                    $voteOptions = options
-                    $voteCounter = Hash[$voteOptions.map { |e| [e,0] }]
-
-                elsif parts[0] == "end"
-                    puts "Ending vote"
-                    $voting = false
-                end
+    def init
+        if controller_store[:vote_options] != nil
+            puts controller_store[:vote_counter]
+            if message["admin"]
+                send_message :i, { :options => controller_store[:vote_options], :stats => controller_store[:vote_counter] }
+            else
+                send_message :i, { :options => controller_store[:vote_options].join('|') } 
             end
         end
     end
 
-    def start
-        puts "hello"
-        opts = params[:options].join '|'
-        VoteController.publish('/vote', "start:#{opts}")
-        render :json => { :started => true }
+    def vote
+        puts message
+        if not $userChecker.include? message["user"]
+            id = message["id"].to_i
+            $userChecker.push message["user"]
+            $voteCounter[id] += 1
+        end
     end
 
-    def stop 
-        VoteController.publish('/vote', "end")
-        render :json => { :stopped => true }
+    def start
+        puts message["options"]
+        controller_store[:voting] = true
+        controller_store[:vote_options] = message["options"]
+        controller_store[:vote_counter] = controller_store[:vote_options].map { |e| 0  }
+        broadcast_message :start_vote, { :options => controller_store[:vote_options].join('|') }
+    end
+
+    def end 
+        controller_store[:voting] = false
+        send_message :end_vote, { :true => true }
+        broadcast_message :x, { :true => true }
+        controller_store[:vote_options] = nil
     end
 
 

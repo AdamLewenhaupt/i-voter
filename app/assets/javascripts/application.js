@@ -14,6 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require faye
 //= require bootstrap
+//= require websocket_rails/main
 //= require_tree ./lib
