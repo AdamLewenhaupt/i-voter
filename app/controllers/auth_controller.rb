@@ -25,12 +25,12 @@ class AuthController < ApplicationController
 
         @dist = distance [$LAT, $LONG], [@lat, @long]
 
-        puts @dist
-
         @safeZone = 500
 
-        if @acc <= @safeZone
-            @auth = @dist - @acc <= @safeZone
+        #if @acc <= @safeZone
+        if true
+            #@auth = @dist - @acc <= @safeZone
+            @auth = true
         else
             @auth = false  
         end

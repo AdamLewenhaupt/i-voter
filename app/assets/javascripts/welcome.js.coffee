@@ -44,7 +44,8 @@ auth = (lat, long, acc) ->
 
 
 handlePos = (pos) ->
-    auth pos.coords.latitude, pos.coords.longitude, pos.coords.accuracy
+    #auth pos.coords.latitude, pos.coords.longitude, pos.coords.accuracy
+    auth 0, 0, 0
 
 
 posError = (err) ->
@@ -63,10 +64,10 @@ posOptions =
 $(document).ready () ->
 
     # Check position if possible
-    if navigator.geolocation
-        navigator.geolocation.getCurrentPosition handlePos, posError, posOptions
-    else
-        console.log "no pos :("
+    # if navigator.geolocation
+    #     navigator.geolocation.getCurrentPosition handlePos, posError, posOptions
+    # else
+    #     console.log "no pos :("
 
     dispatcher = new WebSocketRails 'localhost:3000/websocket'
 
